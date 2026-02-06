@@ -24,10 +24,20 @@ async def root():
     )
 
 @router.get("/health", response_model=HealthResponse)
-async def health():
+async def health(db: Session = Depends(get_db)):
+    is_database_connected = None
+
+    try:
+        # Check database connectivity
+        db.execute("SELECT 1")
+        is_database_connected = True
+    except Exception:
+        is_database_connected = False
+
     return HealthResponse(
-        status="ok",
+        status="ok" if is_database_connected else "unhealthy",
         service="Document Intelligence Service",
+        is_database_connected="connected" if is_database_connected else "disconnected"
     )
 
 @router.post("/jobs")

@@ -13,3 +13,4 @@ class HealthResponse(BaseModel):
     """Health check response"""
     status: str
     service: str
+    is_database_connected: str

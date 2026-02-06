@@ -1,7 +1,7 @@
 """
 Pydantic models for request/response validation
 """
-from pydantic import BaseModel, Field
+from pydantic import BaseModel
 
 class InfoResponse(BaseModel):
     """Basic info response model"""

@@ -1,5 +1,3 @@
-# Updated Dockerfile with icon classification support
-# Multi-stage build for Genshin Impact Artifact OCR Service + Icon Classification
 FROM python:3.11-slim AS builder
 
 # Install system dependencies
@@ -29,6 +27,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libgomp1 \
     libgl1 \
     curl \
+    tesseract-ocr \
+    tesseract-ocr-deu \
+    tesseract-ocr-eng \
+    poppler-utils \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy virtual environment from builder

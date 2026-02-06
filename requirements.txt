@@ -14,3 +14,12 @@ psycopg2-binary==2.9.11
 # Task Queue
 celery[redis]==5.6.2
 redis==6.4 # Redis 7.1.0 not supported yet for celery
+
+# Image Processing
+pdf2image==1.17.0
+opencv-python==4.13.0.92
+pillow==12.1.0
+numpy==2.4.2
+
+# OCR
+pytesseract==0.3.13

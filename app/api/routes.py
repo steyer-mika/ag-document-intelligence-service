@@ -1,6 +1,5 @@
-from http.client import HTTPException
-from fastapi import APIRouter, File, UploadFile
-from sqlalchemy.orm import Session
+from fastapi import APIRouter, File, UploadFile, HTTPException
+from sqlalchemy.ext.asyncio import AsyncSession
 from fastapi import Depends
 
 from app.database.dependencies import get_db
@@ -25,12 +24,12 @@ async def root():
     )
 
 @router.get("/health", response_model=HealthResponse)
-async def health(db: Session = Depends(get_db)):
+async def health(db: AsyncSession = Depends(get_db)):
     is_database_connected = None
 
     try:
         # Check database connectivity
-        db.execute("SELECT 1")
+        await db.execute("SELECT 1")
         is_database_connected = True
     except Exception:
         is_database_connected = False
@@ -42,7 +41,7 @@ async def health(db: Session = Depends(get_db)):
     )
 
 @router.post("/jobs")
-async def create_job(file: UploadFile = File(...), db: Session = Depends(get_db)):
+async def create_job(file: UploadFile = File(...), db: AsyncSession = Depends(get_db)):
     # Validate file is PDF
     if file.content_type != "application/pdf":
         raise HTTPException(status_code=400, detail="File must be a PDF")
@@ -68,3 +67,19 @@ async def create_job(file: UploadFile = File(...), db: Session = Depends(get_db)
     process_document.delay(job.id)
 
     return { "job_id": job.id }
+
+@router.get("/jobs/{job_id}")
+async def get_job(job_id: int, db: AsyncSession = Depends(get_db)):
+    job = await db.get(Job, job_id)
+    
+    if not job:
+        raise HTTPException(status_code=404, detail="Job not found")
+    
+    return {
+        "job_id": job.id,
+        "status": job.status.value,
+        "result": job.result,
+        "created_at": job.created_at.isoformat() if job.created_at else None,
+        "started_at": job.started_at.isoformat() if job.started_at else None,
+        "completed_at": job.completed_at.isoformat() if job.completed_at else None,
+    }

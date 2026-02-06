@@ -1,4 +1,5 @@
-from fastapi import APIRouter
+from http.client import HTTPException
+from fastapi import APIRouter, File, UploadFile
 from sqlalchemy.orm import Session
 from fastapi import Depends
 
@@ -41,7 +42,11 @@ async def health(db: Session = Depends(get_db)):
     )
 
 @router.post("/jobs")
-async def create_job(db: Session = Depends(get_db)):
+async def create_job(file: UploadFile = File(...), db: Session = Depends(get_db)):
+    # Validate file is PDF
+    if file.content_type != "application/pdf":
+        raise HTTPException(status_code=400, detail="File must be a PDF")
+        
     # Create a new job in the database
     job = Job()
     db.add(job)
@@ -51,6 +56,13 @@ async def create_job(db: Session = Depends(get_db)):
 
     # Refresh the job instance to get the updated ID after commit
     await db.refresh(job)
+
+    #! Note: In prd I would implement a more robust file storage solution like a blog storage
+    #! For this example prototype I will skip the blob storage
+    #! Just save the file to a local directory named "files" with the job ID as the filename
+    file_path = f"/files/{job.id}.pdf"
+    with open(file_path, "wb") as f:
+        f.write(await file.read())
 
     # Send a task to the Celery worker to process the document
     process_document.delay(job.id)

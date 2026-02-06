@@ -85,3 +85,11 @@ Health check endpoint to verify service status.
   "status": "healthy"
 }
 ```
+
+### Docs
+
+```
+GET /docs
+```
+
+Open in Browser for Swagger UI.

@@ -1,3 +1,11 @@
 {
-  "cSpell.words": ["healthcheck", "postgres", "redis"]
+  "cSpell.words": [
+    "adminer",
+    "autoflush",
+    "healthcheck",
+    "nullable",
+    "postgres",
+    "redis",
+    "sessionmaker"
+  ]
 }

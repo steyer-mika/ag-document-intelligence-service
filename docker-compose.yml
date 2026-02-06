@@ -28,6 +28,20 @@ services:
       timeout: 10s
       retries: 3
 
+  ag-document-intelligence-service-migrate:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    command: alembic upgrade head
+    depends_on:
+      ag-document-intelligence-service-db:
+        condition: service_healthy
+    volumes:
+      - ./app:/app/app
+      - ./alembic:/app/alembic
+
   ag-document-intelligence-service-api:
     build:
       context: .
@@ -46,6 +60,7 @@ services:
       start_period: 60s
     volumes:
       - ./app:/app/app
+      - ./alembic:/app/alembic
     depends_on:
       - ag-document-intelligence-service-db
       - ag-document-intelligence-service-redis
@@ -61,8 +76,17 @@ services:
     command: celery -A app.celery_app.celery_app worker --loglevel=info
     volumes:
       - ./app:/app/app
+      - ./alembic:/app/alembic
     depends_on:
       - ag-document-intelligence-service-redis
+      - ag-document-intelligence-service-db
+
+  adminer:
+    image: adminer:latest
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    depends_on:
       - ag-document-intelligence-service-db
 
 volumes:

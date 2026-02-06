@@ -93,3 +93,8 @@ GET /docs
 ```
 
 Open in Browser for Swagger UI.
+
+## Migrate for DEV
+
+docker compose exec ag-document-intelligence-service-api alembic -c /app/alembic/alembic.ini revision --autogenerate -m "create jobs table"
+docker compose exec ag-document-intelligence-service-api alembic -c /app/alembic/alembic.ini upgrade head

@@ -1,7 +1,11 @@
 from fastapi import APIRouter
+from sqlalchemy.orm import Session
+from fastapi import Depends
+
+from app.database.dependencies import get_db
+from app.database.models.job import Job
 from app.celery_app import celery_app
 from app.config.settings import settings
-
 from app.api.dto import HealthResponse, InfoResponse
 
 router = APIRouter()
@@ -27,10 +31,21 @@ async def health():
     )
 
 @router.post("/jobs")
-def create_job():
+async def create_job(db: Session = Depends(get_db)):
+    # Create a new job in the database
+    job = Job()
+    db.add(job)
+
+    # Commit the transaction to save the job and get its ID
+    await db.commit()
+
+    # Refresh the job instance to get the updated ID after commit
+    await db.refresh(job)
+
+    # Send a task to the Celery worker to process the document
     celery_app.send_task(
         "app.worker.process_document",
-        args=["test-job-id"],
+        args=[job.id],
     )
 
-    return {"job_id": "test-job-id"}
+    return { "job_id": job.id }

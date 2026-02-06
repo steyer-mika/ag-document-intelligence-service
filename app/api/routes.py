@@ -4,9 +4,9 @@ from fastapi import Depends
 
 from app.database.dependencies import get_db
 from app.database.models.job import Job
-from app.celery_app import celery_app
 from app.config.settings import settings
 from app.api.dto import HealthResponse, InfoResponse
+from app.worker import process_document
 
 router = APIRouter()
 
@@ -43,9 +43,6 @@ async def create_job(db: Session = Depends(get_db)):
     await db.refresh(job)
 
     # Send a task to the Celery worker to process the document
-    celery_app.send_task(
-        "app.worker.process_document",
-        args=[job.id],
-    )
+    process_document.delay(job.id)
 
     return { "job_id": job.id }

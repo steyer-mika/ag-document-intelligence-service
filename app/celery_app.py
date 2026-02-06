@@ -13,3 +13,5 @@ celery_app.conf.update(
     accept_content=["json"],
     task_track_started=True,
 )
+
+import app.worker 

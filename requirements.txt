@@ -14,3 +14,4 @@ psycopg2-binary==2.9.11
 # Task Queue
 celery[redis]==5.6.2
 redis==6.4 # Redis 7.1.0 not supported yet for celery
+watchdog==6.0.0

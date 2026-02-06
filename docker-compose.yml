@@ -73,7 +73,7 @@ services:
     restart: unless-stopped
     env_file:
       - .env
-    command: celery -A app.celery_app.celery_app worker --loglevel=info
+    command: watchmedo auto-restart --directory=/app/app --pattern=*.py --recursive -- celery -A app.celery_app.celery_app worker --loglevel=info
     volumes:
       - ./app:/app/app
       - ./alembic:/app/alembic

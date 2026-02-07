@@ -83,25 +83,9 @@ for page_idx, page in enumerate(pages):
 
     page_h, page_w = binary.shape
 
-    # Define ROI for white detection (full width of column, but only one row height)
-    table_start_x = COLUMNS[0][1]  # x of first column
-    table_end_x = COLUMNS[-1][1] + COLUMNS[-1][2]  # x + width of last column
-
-    white_roi = binary[start_y:start_y + ROW_HEIGHT, table_start_x:table_end_x]
-
-    # make white roi visible in debug image
-    cv2.rectangle(
-        debug,
-        (table_start_x, start_y),
-        (table_end_x, start_y + ROW_HEIGHT),
-        (255, 0, 255),
-        2
-    )   
-
     for col_idx, (name, x, w) in enumerate(COLUMNS):
         color = COLORS[col_idx % len(COLORS)]
         y = start_y
-
 
         while y + ROW_HEIGHT < page_h:
             roi = binary[y:y + ROW_HEIGHT, x:x + w]

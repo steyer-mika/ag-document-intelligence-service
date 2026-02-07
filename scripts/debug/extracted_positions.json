@@ -4,115 +4,134 @@
             "page": 1,
             "column": "article_number",
             "y": 1905,
-            "text": "WN-2401"
+            "text": "WN-2401",
+            "confidence": 91.0
         },
         {
             "page": 1,
             "column": "article_number",
             "y": 1988,
-            "text": "WN-2402"
+            "text": "WN-2402",
+            "confidence": 91.0
         },
         {
             "page": 1,
             "column": "article_number",
             "y": 2071,
-            "text": "WN-2403"
+            "text": "WN-2403",
+            "confidence": 90.0
         },
         {
             "page": 1,
             "column": "article_number",
             "y": 2154,
-            "text": "WN-2404"
+            "text": "WN-2404",
+            "confidence": 91.0
         },
         {
             "page": 1,
             "column": "article_number",
             "y": 2237,
-            "text": "WN-2405"
+            "text": "WN-2405",
+            "confidence": 90.0
         },
         {
             "page": 1,
             "column": "article_number",
             "y": 2320,
-            "text": "WN-2406"
+            "text": "WN-2406",
+            "confidence": 92.0
         },
         {
             "page": 1,
             "column": "article_number",
             "y": 2403,
-            "text": "WN-2407"
+            "text": "WN-2407",
+            "confidence": 89.0
         },
         {
             "page": 1,
             "column": "article_number",
             "y": 2486,
-            "text": "WN-2408"
+            "text": "WN-2408",
+            "confidence": 88.0
         },
         {
             "page": 1,
             "column": "article_number",
             "y": 2569,
-            "text": "YARED"
+            "text": "YARED",
+            "confidence": 27.0
         },
         {
             "page": 1,
             "column": "article_number",
             "y": 2652,
-            "text": "WN-2410"
+            "text": "WN-2410",
+            "confidence": 90.0
         },
         {
             "page": 1,
             "column": "article_number",
             "y": 2735,
-            "text": "WN-2411"
+            "text": "WN-2411",
+            "confidence": 90.0
         },
         {
             "page": 1,
             "column": "article_number",
             "y": 2818,
-            "text": "WN-2412"
+            "text": "WN-2412",
+            "confidence": 90.0
         },
         {
             "page": 1,
             "column": "article_number",
             "y": 2901,
-            "text": "WN-2413"
+            "text": "WN-2413",
+            "confidence": 90.0
         },
         {
             "page": 1,
             "column": "article_number",
             "y": 2984,
-            "text": "WN-2414"
+            "text": "WN-2414",
+            "confidence": 89.0
         },
         {
             "page": 1,
             "column": "article_number",
             "y": 3067,
-            "text": "WN-2415"
+            "text": "WN-2415",
+            "confidence": 91.0
         },
         {
             "page": 1,
             "column": "article_number",
             "y": 3150,
-            "text": "WN-2416"
+            "text": "WN-2416",
+            "confidence": 77.0
         },
         {
             "page": 1,
             "column": "article_number",
             "y": 3233,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 1,
             "column": "article_number",
             "y": 3316,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 1,
             "column": "article_number",
             "y": 3399,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         }
     ],
     [
@@ -120,115 +139,134 @@
             "page": 1,
             "column": "description",
             "y": 1905,
-            "text": "Deep Learning Reserve Rotwein 2021"
+            "text": "Deep Learning Reserve Rotwein 2021",
+            "confidence": 95.6
         },
         {
             "page": 1,
             "column": "description",
             "y": 1988,
-            "text": "Neural Network Spätburgunder 2022"
+            "text": "Neural Network Spätburgunder 2022",
+            "confidence": 92.25
         },
         {
             "page": 1,
             "column": "description",
             "y": 2071,
-            "text": "Python Script Riesling trocken 2023"
+            "text": "Python Script Riesling trocken 2023",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "description",
             "y": 2154,
-            "text": "Algorithm Red halbtrocken 2022"
+            "text": "Algorithm Red halbtrocken 2022",
+            "confidence": 93.0
         },
         {
             "page": 1,
             "column": "description",
             "y": 2237,
-            "text": "Quantum Computing Silvaner 2023"
+            "text": "Quantum Computing Silvaner 2023",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "description",
             "y": 2320,
-            "text": "Binary Code Chardonnay Barrique 2021"
+            "text": "Binary Code Chardonnay Barrique 2021",
+            "confidence": 94.6
         },
         {
             "page": 1,
             "column": "description",
             "y": 2403,
-            "text": "Machine Leaming Merlottrocken 2020"
+            "text": "Machine Leaming Merlottrocken 2020",
+            "confidence": 92.25
         },
         {
             "page": 1,
             "column": "description",
             "y": 2486,
-            "text": "HTMLS Weißwein Qualitätswein 2023"
+            "text": "HTMLS Weißwein Qualitätswein 2023",
+            "confidence": 91.25
         },
         {
             "page": 1,
             "column": "description",
             "y": 2569,
-            "text": "Fispbers PiBese Wacken IR nN"
+            "text": "Fispbers PiBese Wacken IR nN",
+            "confidence": 30.6
         },
         {
             "page": 1,
             "column": "description",
             "y": 2652,
-            "text": "Cloud Computing Sauvignon Blanc 2023"
+            "text": "Cloud Computing Sauvignon Blanc 2023",
+            "confidence": 93.4
         },
         {
             "page": 1,
             "column": "description",
             "y": 2735,
-            "text": "Blockchain Reserve Cabernet 2019"
+            "text": "Blockchain Reserve Cabernet 2019",
+            "confidence": 93.5
         },
         {
             "page": 1,
             "column": "description",
             "y": 2818,
-            "text": "AP| Gateway Gewürztraminer 2022"
+            "text": "AP| Gateway Gewürztraminer 2022",
+            "confidence": 82.5
         },
         {
             "page": 1,
             "column": "description",
             "y": 2901,
-            "text": "Agentur Philipp S pecial Edition 2020"
+            "text": "Agentur Philipp S pecial Edition 2020",
+            "confidence": 93.33
         },
         {
             "page": 1,
             "column": "description",
             "y": 2984,
-            "text": "Docker Container Pinot Noir 2021"
+            "text": "Docker Container Pinot Noir 2021",
+            "confidence": 95.2
         },
         {
             "page": 1,
             "column": "description",
             "y": 3067,
-            "text": "Al Intelligence Eiswein 2022 (0,3751)"
+            "text": "Al Intelligence Eiswein 2022 (0,3751)",
+            "confidence": 89.6
         },
         {
             "page": 1,
             "column": "description",
             "y": 3150,
-            "text": "Git Commit Sekt Brut 2022"
+            "text": "Git Commit Sekt Brut 2022",
+            "confidence": 93.8
         },
         {
             "page": 1,
             "column": "description",
             "y": 3233,
-            "text": "ry a"
+            "text": "ry a",
+            "confidence": 25.5
         },
         {
             "page": 1,
             "column": "description",
             "y": 3316,
-            "text": "orten —"
+            "text": "orten —",
+            "confidence": 0.0
         },
         {
             "page": 1,
             "column": "description",
             "y": 3399,
-            "text": "nS OM"
+            "text": "nS OM",
+            "confidence": 47.5
         }
     ],
     [
@@ -236,115 +274,134 @@
             "page": 1,
             "column": "kvk",
             "y": 1905,
-            "text": "001"
+            "text": "001",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "kvk",
             "y": 1988,
-            "text": "002"
+            "text": "002",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "kvk",
             "y": 2071,
-            "text": "001"
+            "text": "001",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "kvk",
             "y": 2154,
-            "text": "002"
+            "text": "002",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "kvk",
             "y": 2237,
-            "text": "001"
+            "text": "001",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "kvk",
             "y": 2320,
-            "text": "001"
+            "text": "001",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "kvk",
             "y": 2403,
-            "text": "002"
+            "text": "002",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "kvk",
             "y": 2486,
-            "text": "001"
+            "text": "001",
+            "confidence": 95.0
         },
         {
             "page": 1,
             "column": "kvk",
             "y": 2569,
-            "text": "618"
+            "text": "618",
+            "confidence": 63.0
         },
         {
             "page": 1,
             "column": "kvk",
             "y": 2652,
-            "text": "001"
+            "text": "001",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "kvk",
             "y": 2735,
-            "text": "002"
+            "text": "002",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "kvk",
             "y": 2818,
-            "text": "001"
+            "text": "001",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "kvk",
             "y": 2901,
-            "text": "002"
+            "text": "002",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "kvk",
             "y": 2984,
-            "text": "002"
+            "text": "002",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "kvk",
             "y": 3067,
-            "text": "001"
+            "text": "001",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "kvk",
             "y": 3150,
-            "text": "004"
+            "text": "004",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "kvk",
             "y": 3233,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 1,
             "column": "kvk",
             "y": 3316,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 1,
             "column": "kvk",
             "y": 3399,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         }
     ],
     [
@@ -352,115 +409,134 @@
             "page": 1,
             "column": "wgp",
             "y": 1905,
-            "text": "002"
+            "text": "002",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "wgp",
             "y": 1988,
-            "text": "005"
+            "text": "005",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "wgp",
             "y": 2071,
-            "text": "001"
+            "text": "001",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "wgp",
             "y": 2154,
-            "text": "006"
+            "text": "006",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "wgp",
             "y": 2237,
-            "text": "002"
+            "text": "002",
+            "confidence": 95.0
         },
         {
             "page": 1,
             "column": "wgp",
             "y": 2320,
-            "text": "003"
+            "text": "003",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "wgp",
             "y": 2403,
-            "text": "007"
+            "text": "007",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "wgp",
             "y": 2486,
-            "text": "001"
+            "text": "001",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "wgp",
             "y": 2569,
-            "text": "005"
+            "text": "005",
+            "confidence": 76.0
         },
         {
             "page": 1,
             "column": "wgp",
             "y": 2652,
-            "text": "001"
+            "text": "001",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "wgp",
             "y": 2735,
-            "text": "009"
+            "text": "009",
+            "confidence": 95.0
         },
         {
             "page": 1,
             "column": "wgp",
             "y": 2818,
-            "text": "004"
+            "text": "004",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "wgp",
             "y": 2901,
-            "text": "010"
+            "text": "010",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "wgp",
             "y": 2984,
-            "text": "007"
+            "text": "007",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "wgp",
             "y": 3067,
-            "text": "011"
+            "text": "011",
+            "confidence": 94.0
         },
         {
             "page": 1,
             "column": "wgp",
             "y": 3150,
-            "text": "012"
+            "text": "012",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "wgp",
             "y": 3233,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 1,
             "column": "wgp",
             "y": 3316,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 1,
             "column": "wgp",
             "y": 3399,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         }
     ],
     [
@@ -468,115 +544,134 @@
             "page": 1,
             "column": "quantity",
             "y": 1905,
-            "text": "12"
+            "text": "12",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "quantity",
             "y": 1988,
-            "text": "6"
+            "text": "6",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "quantity",
             "y": 2071,
-            "text": "18"
+            "text": "18",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "quantity",
             "y": 2154,
-            "text": "12"
+            "text": "12",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "quantity",
             "y": 2237,
-            "text": "6"
+            "text": "6",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "quantity",
             "y": 2320,
-            "text": "6"
+            "text": "6",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "quantity",
             "y": 2403,
-            "text": "12"
+            "text": "12",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "quantity",
             "y": 2486,
-            "text": "24"
+            "text": "24",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "quantity",
             "y": 2569,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 1,
             "column": "quantity",
             "y": 2652,
-            "text": "6"
+            "text": "6",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "quantity",
             "y": 2735,
-            "text": "6"
+            "text": "6",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "quantity",
             "y": 2818,
-            "text": "6"
+            "text": "6",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "quantity",
             "y": 2901,
-            "text": "3"
+            "text": "3",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "quantity",
             "y": 2984,
-            "text": "6"
+            "text": "6",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "quantity",
             "y": 3067,
-            "text": "6"
+            "text": "6",
+            "confidence": 95.0
         },
         {
             "page": 1,
             "column": "quantity",
             "y": 3150,
-            "text": "12"
+            "text": "12",
+            "confidence": 96.0
         },
         {
             "page": 1,
             "column": "quantity",
             "y": 3233,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 1,
             "column": "quantity",
             "y": 3316,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 1,
             "column": "quantity",
             "y": 3399,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         }
     ],
     [
@@ -584,115 +679,134 @@
             "page": 1,
             "column": "price",
             "y": 1905,
-            "text": "18,90€"
+            "text": "18,90€",
+            "confidence": 31.0
         },
         {
             "page": 1,
             "column": "price",
             "y": 1988,
-            "text": "24,50€"
+            "text": "24,50€",
+            "confidence": 40.0
         },
         {
             "page": 1,
             "column": "price",
             "y": 2071,
-            "text": "12,90€"
+            "text": "12,90€",
+            "confidence": 48.0
         },
         {
             "page": 1,
             "column": "price",
             "y": 2154,
-            "text": "9,90€"
+            "text": "9,90€",
+            "confidence": 73.0
         },
         {
             "page": 1,
             "column": "price",
             "y": 2237,
-            "text": "14,50"
+            "text": "14,50",
+            "confidence": 95.0
         },
         {
             "page": 1,
             "column": "price",
             "y": 2320,
-            "text": "28,90€"
+            "text": "28,90€",
+            "confidence": 0.0
         },
         {
             "page": 1,
             "column": "price",
             "y": 2403,
-            "text": "16,90€"
+            "text": "16,90€",
+            "confidence": 1.0
         },
         {
             "page": 1,
             "column": "price",
             "y": 2486,
-            "text": "790€"
+            "text": "790€",
+            "confidence": 65.0
         },
         {
             "page": 1,
             "column": "price",
             "y": 2569,
-            "text": "13,508"
+            "text": "13,508",
+            "confidence": 27.0
         },
         {
             "page": 1,
             "column": "price",
             "y": 2652,
-            "text": "19,90€"
+            "text": "19,90€",
+            "confidence": 0.0
         },
         {
             "page": 1,
             "column": "price",
             "y": 2735,
-            "text": "34,90€"
+            "text": "34,90€",
+            "confidence": 15.0
         },
         {
             "page": 1,
             "column": "price",
             "y": 2818,
-            "text": "21,90€"
+            "text": "21,90€",
+            "confidence": 31.0
         },
         {
             "page": 1,
             "column": "price",
             "y": 2901,
-            "text": "89,00€"
+            "text": "89,00€",
+            "confidence": 24.0
         },
         {
             "page": 1,
             "column": "price",
             "y": 2984,
-            "text": "32,50€"
+            "text": "32,50€",
+            "confidence": 36.0
         },
         {
             "page": 1,
             "column": "price",
             "y": 3067,
-            "text": "45,00€"
+            "text": "45,00€",
+            "confidence": 63.0
         },
         {
             "page": 1,
             "column": "price",
             "y": 3150,
-            "text": "16,50€"
+            "text": "16,50€",
+            "confidence": 0.0
         },
         {
             "page": 1,
             "column": "price",
             "y": 3233,
-            "text": "."
+            "text": ".",
+            "confidence": 67.0
         },
         {
             "page": 1,
             "column": "price",
             "y": 3316,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 1,
             "column": "price",
             "y": 3399,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         }
     ],
     [
@@ -700,115 +814,134 @@
             "page": 1,
             "column": "total",
             "y": 1905,
-            "text": "226,80€"
+            "text": "226,80€",
+            "confidence": 0.0
         },
         {
             "page": 1,
             "column": "total",
             "y": 1988,
-            "text": "147,00€"
+            "text": "147,00€",
+            "confidence": 0.0
         },
         {
             "page": 1,
             "column": "total",
             "y": 2071,
-            "text": "232,20€"
+            "text": "232,20€",
+            "confidence": 0.0
         },
         {
             "page": 1,
             "column": "total",
             "y": 2154,
-            "text": "118,80€"
+            "text": "118,80€",
+            "confidence": 0.0
         },
         {
             "page": 1,
             "column": "total",
             "y": 2237,
-            "text": ".87,00€"
+            "text": ".87,00€",
+            "confidence": 0.0
         },
         {
             "page": 1,
             "column": "total",
             "y": 2320,
-            "text": "173,40€"
+            "text": "173,40€",
+            "confidence": 86.0
         },
         {
             "page": 1,
             "column": "total",
             "y": 2403,
-            "text": "202,80€"
+            "text": "202,80€",
+            "confidence": 0.0
         },
         {
             "page": 1,
             "column": "total",
             "y": 2486,
-            "text": "189,60€"
+            "text": "189,60€",
+            "confidence": 0.0
         },
         {
             "page": 1,
             "column": "total",
             "y": 2569,
-            "text": "57,00€"
+            "text": "57,00€",
+            "confidence": 37.0
         },
         {
             "page": 1,
             "column": "total",
             "y": 2652,
-            "text": "119,40€"
+            "text": "119,40€",
+            "confidence": 0.0
         },
         {
             "page": 1,
             "column": "total",
             "y": 2735,
-            "text": "209,40€"
+            "text": "209,40€",
+            "confidence": 0.0
         },
         {
             "page": 1,
             "column": "total",
             "y": 2818,
-            "text": "131,40€"
+            "text": "131,40€",
+            "confidence": 0.0
         },
         {
             "page": 1,
             "column": "total",
             "y": 2901,
-            "text": "267,00€"
+            "text": "267,00€",
+            "confidence": 87.0
         },
         {
             "page": 1,
             "column": "total",
             "y": 2984,
-            "text": "195,00€"
+            "text": "195,00€",
+            "confidence": 0.0
         },
         {
             "page": 1,
             "column": "total",
             "y": 3067,
-            "text": "270,00€"
+            "text": "270,00€",
+            "confidence": 0.0
         },
         {
             "page": 1,
             "column": "total",
             "y": 3150,
-            "text": "198,00€"
+            "text": "198,00€",
+            "confidence": 50.0
         },
         {
             "page": 1,
             "column": "total",
             "y": 3233,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 1,
             "column": "total",
             "y": 3316,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 1,
             "column": "total",
             "y": 3399,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         }
     ],
     [
@@ -816,229 +949,267 @@
             "page": 2,
             "column": "article_number",
             "y": 345,
-            "text": "WN-2417"
+            "text": "WN-2417",
+            "confidence": 91.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 428,
-            "text": "WN-2418"
+            "text": "WN-2418",
+            "confidence": 91.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 511,
-            "text": "WN-2419"
+            "text": "WN-2419",
+            "confidence": 91.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 594,
-            "text": "WN-2420"
+            "text": "WN-2420",
+            "confidence": 88.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 677,
-            "text": "WN-2421"
+            "text": "WN-2421",
+            "confidence": 88.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 760,
-            "text": "WN-2422"
+            "text": "WN-2422",
+            "confidence": 90.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 843,
-            "text": "WN-2423"
+            "text": "WN-2423",
+            "confidence": 91.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 926,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 1009,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 1092,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 1175,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 1258,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 1341,
-            "text": "Z"
+            "text": "Z",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 1424,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 1507,
-            "text": "BICRHGBL"
+            "text": "BICRHGBL",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 1590,
-            "text": "V"
+            "text": "V",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 1673,
-            "text": "VD"
+            "text": "VD",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 1756,
-            "text": "AP"
+            "text": "AP",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 1839,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 1922,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 2005,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 2088,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 2171,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 2254,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 2337,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 2420,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 2503,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 2586,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 2669,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 2752,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 2835,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 2918,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 3001,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 3084,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 3167,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 3250,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 3333,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "article_number",
             "y": 3416,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         }
     ],
     [
@@ -1046,229 +1217,267 @@
             "page": 2,
             "column": "description",
             "y": 345,
-            "text": "Cybersecurity Zweigelt Rotwein 2022"
+            "text": "Cybersecurity Zweigelt Rotwein 2022",
+            "confidence": 91.25
         },
         {
             "page": 2,
             "column": "description",
             "y": 428,
-            "text": "J avaS cript Framework Weißburgunder 2022"
+            "text": "J avaS cript Framework Weißburgunder 2022",
+            "confidence": 90.5
         },
         {
             "page": 2,
             "column": "description",
             "y": 511,
-            "text": "Linux Kernel Trollinger 2023"
+            "text": "Linux Kernel Trollinger 2023",
+            "confidence": 94.0
         },
         {
             "page": 2,
             "column": "description",
             "y": 594,
-            "text": "Robotic Wine Series No. 404 Edition 2021"
+            "text": "Robotic Wine Series No. 404 Edition 2021",
+            "confidence": 95.14
         },
         {
             "page": 2,
             "column": "description",
             "y": 677,
-            "text": "Database Query Lemberger trocken 2022"
+            "text": "Database Query Lemberger trocken 2022",
+            "confidence": 94.4
         },
         {
             "page": 2,
             "column": "description",
             "y": 760,
-            "text": "Firmware Update Spätlese 2023"
+            "text": "Firmware Update Spätlese 2023",
+            "confidence": 94.25
         },
         {
             "page": 2,
             "column": "description",
             "y": 843,
-            "text": "Internet of Things Weißherbst 2023"
+            "text": "Internet of Things Weißherbst 2023",
+            "confidence": 91.8
         },
         {
             "page": 2,
             "column": "description",
             "y": 926,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "description",
             "y": 1009,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "description",
             "y": 1092,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "description",
             "y": 1175,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "description",
             "y": 1258,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "description",
             "y": 1341,
-            "text": "tails:"
+            "text": "tails:",
+            "confidence": 79.0
         },
         {
             "page": 2,
             "column": "description",
             "y": 1424,
-            "text": "ung: Rheingold Bank AG\nrhans AFAR? Ansa rn An"
+            "text": "ung: Rheingold Bank AG rhans AFAR? Ansa rn An",
+            "confidence": 58.11
         },
         {
             "page": 2,
             "column": "description",
             "y": 1507,
-            "text": "PUL VILE £2097 IVO DU\nJEFF"
+            "text": "PUL VILE £2097 IVO DU JEFF",
+            "confidence": 37.0
         },
         {
             "page": 2,
             "column": "description",
             "y": 1590,
-            "text": "iszweck: WH-2024-00315"
+            "text": "iszweck: WH-2024-00315",
+            "confidence": 68.0
         },
         {
             "page": 2,
             "column": "description",
             "y": 1673,
-            "text": "für Ihren Einkauf! Bei Fragen zu dieser Rechnung konta"
+            "text": "für Ihren Einkauf! Bei Fragen zu dieser Rechnung konta",
+            "confidence": 94.56
         },
         {
             "page": 2,
             "column": "description",
             "y": 1756,
-            "text": "erstehen Sich in Euro (EUR). Es geiten unsere alıgemeit"
+            "text": "erstehen Sich in Euro (EUR). Es geiten unsere alıgemeit",
+            "confidence": 81.89
         },
         {
             "page": 2,
             "column": "description",
             "y": 1839,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "description",
             "y": 1922,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "description",
             "y": 2005,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "description",
             "y": 2088,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "description",
             "y": 2171,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "description",
             "y": 2254,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "description",
             "y": 2337,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "description",
             "y": 2420,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "description",
             "y": 2503,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "description",
             "y": 2586,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "description",
             "y": 2669,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "description",
             "y": 2752,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "description",
             "y": 2835,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "description",
             "y": 2918,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "description",
             "y": 3001,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "description",
             "y": 3084,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "description",
             "y": 3167,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "description",
             "y": 3250,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "description",
             "y": 3333,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "description",
             "y": 3416,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         }
     ],
     [
@@ -1276,229 +1485,267 @@
             "page": 2,
             "column": "kvk",
             "y": 345,
-            "text": "002"
+            "text": "002",
+            "confidence": 69.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 428,
-            "text": "001"
+            "text": "001",
+            "confidence": 95.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 511,
-            "text": "002"
+            "text": "002",
+            "confidence": 96.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 594,
-            "text": "002"
+            "text": "002",
+            "confidence": 96.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 677,
-            "text": "002"
+            "text": "002",
+            "confidence": 96.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 760,
-            "text": "001"
+            "text": "001",
+            "confidence": 94.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 843,
-            "text": "003"
+            "text": "003",
+            "confidence": 96.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 926,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 1009,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 1092,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 1175,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 1258,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 1341,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 1424,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 1507,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 1590,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 1673,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 1756,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 1839,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 1922,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 2005,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 2088,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 2171,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 2254,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 2337,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 2420,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 2503,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 2586,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 2669,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 2752,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 2835,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 2918,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 3001,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 3084,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 3167,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 3250,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 3333,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "kvk",
             "y": 3416,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         }
     ],
     [
@@ -1506,229 +1753,267 @@
             "page": 2,
             "column": "wgp",
             "y": 345,
-            "text": "005"
+            "text": "005",
+            "confidence": 40.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 428,
-            "text": "003"
+            "text": "003",
+            "confidence": 96.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 511,
-            "text": "006"
+            "text": "006",
+            "confidence": 96.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 594,
-            "text": "013"
+            "text": "013",
+            "confidence": 96.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 677,
-            "text": "006"
+            "text": "006",
+            "confidence": 96.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 760,
-            "text": "002"
+            "text": "002",
+            "confidence": 95.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 843,
-            "text": "008"
+            "text": "008",
+            "confidence": 96.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 926,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 1009,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 1092,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 1175,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 1258,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 1341,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 1424,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 1507,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 1590,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 1673,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 1756,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 1839,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 1922,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 2005,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 2088,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 2171,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 2254,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 2337,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 2420,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 2503,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 2586,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 2669,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 2752,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 2835,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 2918,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 3001,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 3084,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 3167,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 3250,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 3333,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "wgp",
             "y": 3416,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         }
     ],
     [
@@ -1736,229 +2021,267 @@
             "page": 2,
             "column": "quantity",
             "y": 345,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 428,
-            "text": "12"
+            "text": "12",
+            "confidence": 96.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 511,
-            "text": "18"
+            "text": "18",
+            "confidence": 96.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 594,
-            "text": "6"
+            "text": "6",
+            "confidence": 96.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 677,
-            "text": "12"
+            "text": "12",
+            "confidence": 96.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 760,
-            "text": "6"
+            "text": "6",
+            "confidence": 96.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 843,
-            "text": "12"
+            "text": "12",
+            "confidence": 96.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 926,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 1009,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 1092,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 1175,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 1258,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 1341,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 1424,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 1507,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 1590,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 1673,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 1756,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 1839,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 1922,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 2005,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 2088,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 2171,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 2254,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 2337,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 2420,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 2503,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 2586,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 2669,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 2752,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 2835,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 2918,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 3001,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 3084,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 3167,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 3250,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 3333,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "quantity",
             "y": 3416,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         }
     ],
     [
@@ -1966,229 +2289,267 @@
             "page": 2,
             "column": "price",
             "y": 345,
-            "text": "11,90€"
+            "text": "11,90€",
+            "confidence": 13.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 428,
-            "text": "22,90€"
+            "text": "22,90€",
+            "confidence": 72.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 511,
-            "text": "8,90€"
+            "text": "8,90€",
+            "confidence": 46.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 594,
-            "text": "42,00€"
+            "text": "42,00€",
+            "confidence": 70.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 677,
-            "text": "13,90€"
+            "text": "13,90€",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 760,
-            "text": "17,90€"
+            "text": "17,90€",
+            "confidence": 12.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 843,
-            "text": "9,50€"
+            "text": "9,50€",
+            "confidence": 84.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 926,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 1009,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 1092,
-            "text": "19"
+            "text": "19",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 1175,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 1258,
-            "text": "..4"
+            "text": "..4",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 1341,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 1424,
-            "text": "."
+            "text": ".",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 1507,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 1590,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 1673,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 1756,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 1839,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 1922,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 2005,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 2088,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 2171,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 2254,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 2337,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 2420,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 2503,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 2586,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 2669,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 2752,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 2835,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 2918,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 3001,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 3084,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 3167,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 3250,
-            "text": "."
+            "text": ".",
+            "confidence": 51.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 3333,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "price",
             "y": 3416,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         }
     ],
     [
@@ -2196,229 +2557,267 @@
             "page": 2,
             "column": "total",
             "y": 345,
-            "text": "142,80€"
+            "text": "142,80€",
+            "confidence": 5.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 428,
-            "text": "274,80€"
+            "text": "274,80€",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 511,
-            "text": "160,20€"
+            "text": "160,20€",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 594,
-            "text": "252,00€"
+            "text": "252,00€",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 677,
-            "text": "166,80€"
+            "text": "166,80€",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 760,
-            "text": "107,40€"
+            "text": "107,40€",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 843,
-            "text": "114,00€"
+            "text": "114,00€",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 926,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 1009,
-            "text": "4,147.80€"
+            "text": "4,147.80€",
+            "confidence": 5.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 1092,
-            "text": "788.08€"
+            "text": "788.08€",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 1175,
-            "text": "4,935.88€"
+            "text": "4,935.88€",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 1258,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 1341,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 1424,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 1507,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 1590,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 1673,
-            "text": "."
+            "text": ".",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 1756,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 1839,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 1922,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 2005,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 2088,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 2171,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 2254,
-            "text": "."
+            "text": ".",
+            "confidence": 27.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 2337,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 2420,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 2503,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 2586,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 2669,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 2752,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 2835,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 2918,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 3001,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 3084,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 3167,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 3250,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 3333,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         },
         {
             "page": 2,
             "column": "total",
             "y": 3416,
-            "text": ""
+            "text": "",
+            "confidence": 0.0
         }
     ]
 ]

@@ -6,6 +6,7 @@ from pathlib import Path
 import cv2
 import numpy as np
 import pytesseract
+from pytesseract import Output
 
 PDF_PATH = "/app/scripts/scan_default.pdf"
 OUT_DIR = Path("/app/scripts/debug")
@@ -108,19 +109,32 @@ for page_idx, page in enumerate(pages):
             if roi.size == 0:
                 break
 
-            text = pytesseract.image_to_string(
+            data = pytesseract.image_to_data(
                 roi,
                 lang="deu+eng",
-                config=TESSERACT_CONFIGS.get(name, "--psm 7")
+                config=TESSERACT_CONFIGS.get(name, "--psm 7"),
+                output_type=Output.DICT
             )
 
-            text = text.strip()
+            # Extract text and calculate confidence
+            texts = []
+            confidences = []
+            for i, conf in enumerate(data['conf']):
+                if conf != -1:  # -1 means no detection
+                    txt = data['text'][i].strip()
+                    if txt:
+                        texts.append(txt)
+                        confidences.append(float(conf))
+
+            text = ' '.join(texts)
+            avg_confidence = sum(confidences) / len(confidences) if confidences else 0.0
 
             row_results.append({
                 "page": page_idx + 1,
                 "column": name,
                 "y": y,
                 "text": text,
+                "confidence": round(avg_confidence, 2)
             })
 
             # Draw rectangle

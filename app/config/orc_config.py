@@ -1,0 +1,82 @@
+################################################################################
+#                               Image Processing                               #
+################################################################################
+
+DPI = 300
+
+GAUSSIAN_BLUR_KERNEL = (5, 5)
+
+ADAPTIVE_THRESHOLD = {
+    "block_size": 31,
+    "constant": 15,
+}
+
+################################################################################
+#                               Layout Detection                               #
+################################################################################
+
+LAYOUT = {
+    "start_y_first_page": 1905,
+    "start_y_other_pages": 345,
+    "row_height": 83,
+}
+
+
+################################################################################
+#                             Column Definitions                               #
+################################################################################
+
+COLUMNS = [
+    {
+        "name": "article_number",
+        "x": 165,
+        "width": 260,
+        "tesseract_config": "--psm 7 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-",
+    },
+    {
+        "name": "description",
+        "x": 425,
+        "width": 830,
+        "tesseract_config": "--psm 6",
+    },
+    {
+        "name": "kvk",
+        "x": 1255,
+        "width": 140,
+        "tesseract_config": "--psm 7 -c tessedit_char_whitelist=0123456789",
+    },
+    {
+        "name": "wgp",
+        "x": 1395,
+        "width": 140,
+        "tesseract_config": "--psm 7 -c tessedit_char_whitelist=0123456789",
+    },
+    {
+        "name": "quantity",
+        "x": 1535,
+        "width": 180,
+        "tesseract_config": "--psm 7 -c tessedit_char_whitelist=0123456789",
+    },
+    {
+        "name": "price",
+        "x": 1715,
+        "width": 270,
+        "tesseract_config": "--psm 7 -c tessedit_char_whitelist=0123456789.,€",
+    },
+    {
+        "name": "total",
+        "x": 1985,
+        "width": 290,
+        "tesseract_config": "--psm 7 -c tessedit_char_whitelist=0123456789.,€",
+    },
+]
+
+
+################################################################################
+#                                 OCR Settings                                 #
+################################################################################
+
+OCR = {
+    "languages": "deu+eng",
+    "min_confidence": 0.0,
+}

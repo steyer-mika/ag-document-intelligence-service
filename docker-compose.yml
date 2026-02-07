@@ -79,6 +79,7 @@ services:
     volumes:
       - ./app:/app/app
       - ./alembic:/app/alembic
+      - ./files:/files
     depends_on:
       - ag-document-intelligence-service-redis
       - ag-document-intelligence-service-db

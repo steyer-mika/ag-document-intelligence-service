@@ -3,6 +3,8 @@ from app.celery_app import celery_app
 from app.database.sync_session import SessionLocal
 from app.database.models.job import Job, JobStatus 
 
+from app.services.orc_service import OrderPositionExtractionService
+
 @celery_app.task(bind=True)
 def process_document(self, job_id: int):
     db = SessionLocal()
@@ -13,17 +15,20 @@ def process_document(self, job_id: int):
         job.started_at = datetime.now(timezone.utc)
         db.commit()
 
-        result = f"Processed document {job_id}"
+        file_path = f"/files/{job.id}.pdf"
 
-        import time
-        time.sleep(10)  # Simulate time-consuming processing
+        orc_service = OrderPositionExtractionService()
+        result = orc_service.extract_from_pdf(file_path)
+
+        # Debug Dump to JSON to string to store in DB
+        json_string = result.model_dump_json()
 
         job.status = JobStatus.completed
         job.completed_at = datetime.now(timezone.utc)
-        job.result = result
+        job.result = json_string
         db.commit()
 
-        return result
+        return True
 
     except Exception as e:
         job.status = JobStatus.failed

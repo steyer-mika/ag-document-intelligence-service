@@ -7,6 +7,8 @@
     "postgres",
     "redis",
     "rois",
-    "sessionmaker"
+    "sessionmaker",
+    "tessedit",
+    "TESSERACT"
   ]
 }

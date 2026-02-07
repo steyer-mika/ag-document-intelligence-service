@@ -1,0 +1,696 @@
+{
+  "job_id": null,
+  "total_pages": 2,
+  "positions": [
+    {
+      "article_number": {
+        "value": "WN-2401",
+        "confidence": 99
+      },
+      "description": {
+        "value": "Deep Learning Reserve Rotwein 2021",
+        "confidence": 99
+      },
+      "kvk": {
+        "value": "001",
+        "confidence": 99
+      },
+      "wgp": {
+        "value": "002",
+        "confidence": 99
+      },
+      "quantity": {
+        "value": 12,
+        "confidence": 99
+      },
+      "price": {
+        "value": 18.9,
+        "confidence": 99
+      },
+      "total": {
+        "value": 226.8,
+        "confidence": 99
+      }
+    },
+    {
+      "article_number": {
+        "value": "WN-2402",
+        "confidence": 99
+      },
+      "description": {
+        "value": "Neural Network Spätburgunder 2022",
+        "confidence": 99
+      },
+      "kvk": {
+        "value": "002",
+        "confidence": 99
+      },
+      "wgp": {
+        "value": "005",
+        "confidence": 99
+      },
+      "quantity": {
+        "value": 6,
+        "confidence": 99
+      },
+      "price": {
+        "value": 24.5,
+        "confidence": 99
+      },
+      "total": {
+        "value": 147.0,
+        "confidence": 99
+      }
+    },
+    {
+      "article_number": {
+        "value": "WN-2403",
+        "confidence": 99
+      },
+      "description": {
+        "value": "Python Script Riesling trocken 2023",
+        "confidence": 99
+      },
+      "kvk": {
+        "value": "001",
+        "confidence": 99
+      },
+      "wgp": {
+        "value": "001",
+        "confidence": 99
+      },
+      "quantity": {
+        "value": 18,
+        "confidence": 99
+      },
+      "price": {
+        "value": 12.9,
+        "confidence": 99
+      },
+      "total": {
+        "value": 232.2,
+        "confidence": 99
+      }
+    },
+    {
+      "article_number": {
+        "value": "WN-2404",
+        "confidence": 99
+      },
+      "description": {
+        "value": "Algorithm Red halbtrocken 2022",
+        "confidence": 99
+      },
+      "kvk": {
+        "value": "002",
+        "confidence": 99
+      },
+      "wgp": {
+        "value": "006",
+        "confidence": 99
+      },
+      "quantity": {
+        "value": 12,
+        "confidence": 99
+      },
+      "price": {
+        "value": 9.9,
+        "confidence": 99
+      },
+      "total": {
+        "value": 118.8,
+        "confidence": 99
+      }
+    },
+    {
+      "article_number": {
+        "value": "WN-2405",
+        "confidence": 99
+      },
+      "description": {
+        "value": "Quantum Computing Silvaner 2023",
+        "confidence": 99
+      },
+      "kvk": {
+        "value": "001",
+        "confidence": 99
+      },
+      "wgp": {
+        "value": "002",
+        "confidence": 99
+      },
+      "quantity": {
+        "value": 6,
+        "confidence": 99
+      },
+      "price": {
+        "value": 14.5,
+        "confidence": 99
+      },
+      "total": {
+        "value": 87.0,
+        "confidence": 99
+      }
+    },
+    {
+      "article_number": {
+        "value": "WN-2406",
+        "confidence": 99
+      },
+      "description": {
+        "value": "Binary Code Chardonnay Barrique 2021",
+        "confidence": 99
+      },
+      "kvk": {
+        "value": "001",
+        "confidence": 99
+      },
+      "wgp": {
+        "value": "003",
+        "confidence": 99
+      },
+      "quantity": {
+        "value": 6,
+        "confidence": 99
+      },
+      "price": {
+        "value": 28.9,
+        "confidence": 99
+      },
+      "total": {
+        "value": 173.4,
+        "confidence": 99
+      }
+    },
+    {
+      "article_number": {
+        "value": "WN-2407",
+        "confidence": 99
+      },
+      "description": {
+        "value": "Machine Learning Merlot trocken 2020",
+        "confidence": 99
+      },
+      "kvk": {
+        "value": "002",
+        "confidence": 99
+      },
+      "wgp": {
+        "value": "007",
+        "confidence": 99
+      },
+      "quantity": {
+        "value": 12,
+        "confidence": 99
+      },
+      "price": {
+        "value": 16.9,
+        "confidence": 99
+      },
+      "total": {
+        "value": 202.8,
+        "confidence": 99
+      }
+    },
+    {
+      "article_number": {
+        "value": "WN-2408",
+        "confidence": 99
+      },
+      "description": {
+        "value": "HTML5 Weißwein Qualitätswein 2023",
+        "confidence": 99
+      },
+      "kvk": {
+        "value": "001",
+        "confidence": 99
+      },
+      "wgp": {
+        "value": "001",
+        "confidence": 99
+      },
+      "quantity": {
+        "value": 24,
+        "confidence": 99
+      },
+      "price": {
+        "value": 7.9,
+        "confidence": 99
+      },
+      "total": {
+        "value": 189.6,
+        "confidence": 99
+      }
+    },
+    {
+      "article_number": {
+        "value": "WN-2409",
+        "confidence": 99
+      },
+      "description": {
+        "value": "Raspberry Pi Rosé trocken 2023",
+        "confidence": 99
+      },
+      "kvk": {
+        "value": "003",
+        "confidence": 99
+      },
+      "wgp": {
+        "value": "008",
+        "confidence": 99
+      },
+      "quantity": {
+        "value": 12,
+        "confidence": 99
+      },
+      "price": {
+        "value": 13.5,
+        "confidence": 99
+      },
+      "total": {
+        "value": 162.0,
+        "confidence": 99
+      }
+    },
+    {
+      "article_number": {
+        "value": "WN-2410",
+        "confidence": 99
+      },
+      "description": {
+        "value": "Cloud Computing Sauvignon Blanc 2023",
+        "confidence": 99
+      },
+      "kvk": {
+        "value": "001",
+        "confidence": 99
+      },
+      "wgp": {
+        "value": "001",
+        "confidence": 99
+      },
+      "quantity": {
+        "value": 6,
+        "confidence": 99
+      },
+      "price": {
+        "value": 19.9,
+        "confidence": 99
+      },
+      "total": {
+        "value": 119.4,
+        "confidence": 99
+      }
+    },
+    {
+      "article_number": {
+        "value": "WN-2411",
+        "confidence": 99
+      },
+      "description": {
+        "value": "Blockchain Reserve Cabernet 2019",
+        "confidence": 99
+      },
+      "kvk": {
+        "value": "002",
+        "confidence": 99
+      },
+      "wgp": {
+        "value": "009",
+        "confidence": 99
+      },
+      "quantity": {
+        "value": 6,
+        "confidence": 99
+      },
+      "price": {
+        "value": 34.9,
+        "confidence": 99
+      },
+      "total": {
+        "value": 209.4,
+        "confidence": 99
+      }
+    },
+    {
+      "article_number": {
+        "value": "WN-2412",
+        "confidence": 99
+      },
+      "description": {
+        "value": "API Gateway Gewürztraminer 2022",
+        "confidence": 99
+      },
+      "kvk": {
+        "value": "001",
+        "confidence": 99
+      },
+      "wgp": {
+        "value": "004",
+        "confidence": 99
+      },
+      "quantity": {
+        "value": 6,
+        "confidence": 99
+      },
+      "price": {
+        "value": 21.9,
+        "confidence": 99
+      },
+      "total": {
+        "value": 131.4,
+        "confidence": 99
+      }
+    },
+    {
+      "article_number": {
+        "value": "WN-2413",
+        "confidence": 99
+      },
+      "description": {
+        "value": "Agentur Philipp Special Edition 2020",
+        "confidence": 99
+      },
+      "kvk": {
+        "value": "002",
+        "confidence": 99
+      },
+      "wgp": {
+        "value": "010",
+        "confidence": 99
+      },
+      "quantity": {
+        "value": 3,
+        "confidence": 99
+      },
+      "price": {
+        "value": 89.0,
+        "confidence": 99
+      },
+      "total": {
+        "value": 267.0,
+        "confidence": 99
+      }
+    },
+    {
+      "article_number": {
+        "value": "WN-2414",
+        "confidence": 99
+      },
+      "description": {
+        "value": "Docker Container Pinot Noir 2021",
+        "confidence": 99
+      },
+      "kvk": {
+        "value": "002",
+        "confidence": 99
+      },
+      "wgp": {
+        "value": "007",
+        "confidence": 99
+      },
+      "quantity": {
+        "value": 6,
+        "confidence": 99
+      },
+      "price": {
+        "value": 32.5,
+        "confidence": 99
+      },
+      "total": {
+        "value": 195.0,
+        "confidence": 99
+      }
+    },
+    {
+      "article_number": {
+        "value": "WN-2415",
+        "confidence": 99
+      },
+      "description": {
+        "value": "AI Intelligence Eiswein 2022 (0,375l)",
+        "confidence": 99
+      },
+      "kvk": {
+        "value": "001",
+        "confidence": 99
+      },
+      "wgp": {
+        "value": "011",
+        "confidence": 99
+      },
+      "quantity": {
+        "value": 6,
+        "confidence": 99
+      },
+      "price": {
+        "value": 45.0,
+        "confidence": 99
+      },
+      "total": {
+        "value": 270.0,
+        "confidence": 99
+      }
+    },
+    {
+      "article_number": {
+        "value": "WN-2416",
+        "confidence": 99
+      },
+      "description": {
+        "value": "Git Commit Sekt Brut 2022",
+        "confidence": 99
+      },
+      "kvk": {
+        "value": "004",
+        "confidence": 99
+      },
+      "wgp": {
+        "value": "012",
+        "confidence": 99
+      },
+      "quantity": {
+        "value": 12,
+        "confidence": 99
+      },
+      "price": {
+        "value": 16.5,
+        "confidence": 99
+      },
+      "total": {
+        "value": 198.0,
+        "confidence": 99
+      }
+    },
+    {
+      "article_number": {
+        "value": "WN-2417",
+        "confidence": 99
+      },
+      "description": {
+        "value": "Cybersecurity Zweigelt Rotwein 2022",
+        "confidence": 99
+      },
+      "kvk": {
+        "value": "002",
+        "confidence": 99
+      },
+      "wgp": {
+        "value": "005",
+        "confidence": 99
+      },
+      "quantity": {
+        "value": 12,
+        "confidence": 99
+      },
+      "price": {
+        "value": 11.9,
+        "confidence": 99
+      },
+      "total": {
+        "value": 142.8,
+        "confidence": 99
+      }
+    },
+    {
+      "article_number": {
+        "value": "WN-2418",
+        "confidence": 99
+      },
+      "description": {
+        "value": "JavaScript Framework Weißburgunder 2022",
+        "confidence": 99
+      },
+      "kvk": {
+        "value": "001",
+        "confidence": 99
+      },
+      "wgp": {
+        "value": "003",
+        "confidence": 99
+      },
+      "quantity": {
+        "value": 12,
+        "confidence": 99
+      },
+      "price": {
+        "value": 22.9,
+        "confidence": 99
+      },
+      "total": {
+        "value": 274.8,
+        "confidence": 99
+      }
+    },
+    {
+      "article_number": {
+        "value": "WN-2419",
+        "confidence": 99
+      },
+      "description": {
+        "value": "Linux Kernel Trollinger 2023",
+        "confidence": 99
+      },
+      "kvk": {
+        "value": "002",
+        "confidence": 99
+      },
+      "wgp": {
+        "value": "006",
+        "confidence": 99
+      },
+      "quantity": {
+        "value": 18,
+        "confidence": 99
+      },
+      "price": {
+        "value": 8.9,
+        "confidence": 99
+      },
+      "total": {
+        "value": 160.2,
+        "confidence": 99
+      }
+    },
+    {
+      "article_number": {
+        "value": "WN-2420",
+        "confidence": 99
+      },
+      "description": {
+        "value": "Robotic Wine Series No. 404 Edition 2021",
+        "confidence": 99
+      },
+      "kvk": {
+        "value": "002",
+        "confidence": 99
+      },
+      "wgp": {
+        "value": "013",
+        "confidence": 99
+      },
+      "quantity": {
+        "value": 6,
+        "confidence": 99
+      },
+      "price": {
+        "value": 42.0,
+        "confidence": 99
+      },
+      "total": {
+        "value": 252.0,
+        "confidence": 99
+      }
+    },
+    {
+      "article_number": {
+        "value": "WN-2421",
+        "confidence": 99
+      },
+      "description": {
+        "value": "Database Query Lemberger trocken 2022",
+        "confidence": 99
+      },
+      "kvk": {
+        "value": "002",
+        "confidence": 99
+      },
+      "wgp": {
+        "value": "006",
+        "confidence": 99
+      },
+      "quantity": {
+        "value": 12,
+        "confidence": 99
+      },
+      "price": {
+        "value": 13.9,
+        "confidence": 99
+      },
+      "total": {
+        "value": 166.8,
+        "confidence": 99
+      }
+    },
+    {
+      "article_number": {
+        "value": "WN-2422",
+        "confidence": 99
+      },
+      "description": {
+        "value": "Firmware Update Spätlese 2023",
+        "confidence": 99
+      },
+      "kvk": {
+        "value": "001",
+        "confidence": 99
+      },
+      "wgp": {
+        "value": "002",
+        "confidence": 99
+      },
+      "quantity": {
+        "value": 6,
+        "confidence": 99
+      },
+      "price": {
+        "value": 17.9,
+        "confidence": 99
+      },
+      "total": {
+        "value": 107.4,
+        "confidence": 99
+      }
+    },
+    {
+      "article_number": {
+        "value": "WN-2423",
+        "confidence": 99
+      },
+      "description": {
+        "value": "Internet of Things Weißherbst 2023",
+        "confidence": 99
+      },
+      "kvk": {
+        "value": "003",
+        "confidence": 99
+      },
+      "wgp": {
+        "value": "008",
+        "confidence": 99
+      },
+      "quantity": {
+        "value": 12,
+        "confidence": 99
+      },
+      "price": {
+        "value": 9.5,
+        "confidence": 99
+      },
+      "total": {
+        "value": 114.0,
+        "confidence": 99
+      }
+    }
+  ]
+}

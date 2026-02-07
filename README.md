@@ -2,25 +2,6 @@
 
 A Python-based service that processes scanned PDF documents and extracts structured data using OCR and computer vision technologies.
 
-## Overview
-
-This service automatically processes PDF documents containing product articles and extracts key information into a structured CSV format. It uses Optical Character Recognition (OCR) to read text from scanned documents and intelligently parses the content to identify specific data fields.
-
-## Features
-
-- **PDF Processing**: Accepts scanned PDF documents as input
-- **Data Extraction**: Extracts the following fields per article:
-  - Article Name (Artikelname)
-  - KVK (Customer Unit of Measure)
-  - WGP (Product Group)
-  - Article Number (Artikelnummer)
-- **CSV Export**: Outputs structured data in CSV format
-- **OCR/Computer Vision**: Advanced text recognition from scanned documents
-- **Error Handling**: Robust error handling for illegible or problematic areas
-- **REST API**: FastAPI-based REST API for easy integration
-- **Confidence Scores**: Returns confidence metrics for extracted data
-- **Docker Support**: Fully containerized deployment
-
 ## Prerequisites
 
 - Docker installed on your system

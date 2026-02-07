@@ -85,6 +85,7 @@ class OrderPositionExtractionService:
         y = start_y
 
         row_counter = 1
+        stop_rows = False
 
         while y + LAYOUT["row_height"] < page_h:
             row_data = {
@@ -122,10 +123,19 @@ class OrderPositionExtractionService:
                     if confidences else 0.0
                 )
 
+                # Check if table has ended (e.g. empty article number column)
+                if column["name"] == "article_number" and not text:
+                    stop_rows = True
+                    break
+
                 row_data["fields"][column["name"]] = {
                     "text": text,
                     "confidence": round(avg_confidence, 2)
                 }
+
+            # Flag to detect if we are at the end of the table and should stop processing further rows
+            if stop_rows:
+                break
 
             rows.append(row_data)
 

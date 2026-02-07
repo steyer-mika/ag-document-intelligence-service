@@ -15,14 +15,26 @@ class JsonExportStrategy(ExportStrategy):
                         "value": pos.description_value,
                         "confidence": pos.description_confidence,
                     },
-                    "kvk": {"value": pos.kvk_value, "confidence": pos.kvk_confidence},
-                    "wgp": {"value": pos.wgp_value, "confidence": pos.wgp_confidence},
+                    "kvk": {
+                        "value": pos.kvk_value,
+                        "confidence": pos.kvk_confidence
+                    },
+                    "wgp": {
+                        "value": pos.wgp_value,
+                        "confidence": pos.wgp_confidence
+                    },
                     "quantity": {
-                        "value": pos.quantity_value,
+                        "value": float(pos.quantity_value) if pos.quantity_value else None,
                         "confidence": pos.quantity_confidence,
                     },
-                    "price": {"value": pos.price_value, "confidence": pos.price_confidence},
-                    "total": {"value": pos.total_value, "confidence": pos.total_confidence},
+                    "price": {
+                        "value": float(pos.price_value) if pos.price_value else None,
+                        "confidence": pos.price_confidence
+                    },
+                    "total": {
+                        "value": float(pos.total_value) if pos.total_value else None,
+                        "confidence": pos.total_confidence
+                    },
                 }
                 for pos in extraction_result.positions
             ],

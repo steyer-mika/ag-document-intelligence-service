@@ -28,7 +28,6 @@ class Job(Base):
         default=JobStatus.pending,
     )
 
-    result = Column(Text, nullable=True)
     error = Column(Text, nullable=True)
 
     created_at = Column(

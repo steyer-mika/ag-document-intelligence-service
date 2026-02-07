@@ -53,7 +53,6 @@ def process_document(self, job_id: int):
             db.add(order_position)
 
         job.status = JobStatus.completed
-        job.result = f"Successfully extracted {len(result.positions)} positions from {result.total_pages} pages."
         job.completed_at = datetime.now(timezone.utc)
         db.commit()
 
@@ -61,7 +60,7 @@ def process_document(self, job_id: int):
 
     except Exception as e:
         job.status = JobStatus.failed
-        job.result = str(e)
+        job.error = str(e)
         db.commit()
         raise
     finally:

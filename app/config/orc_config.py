@@ -43,13 +43,13 @@ COLUMNS = [
         "name": "kvk",
         "x": 1255,
         "width": 140,
-        "tesseract_config": "--psm 8 -c classify_bln_numeric_mode=1 -c tessedit_char_blacklist=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
+        "tesseract_config": "--psm 8 -c classify_bln_numeric_mode=1",
     },
     {
         "name": "wgp",
         "x": 1395,
         "width": 140,
-        "tesseract_config": "--psm 8 -c classify_bln_numeric_mode=1 -c tessedit_char_blacklist=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
+        "tesseract_config": "--psm 8 -c classify_bln_numeric_mode=1",
     },
     {
         "name": "quantity",
@@ -60,13 +60,13 @@ COLUMNS = [
     {
         "name": "price",
         "x": 1715,
-        "width": 270,
+        "width": 235,
         "tesseract_config": "--psm 8 -c classify_bln_numeric_mode=1 -c tessedit_char_blacklist=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
     },
     {
         "name": "total",
         "x": 1985,
-        "width": 290,
+        "width": 260,
         "tesseract_config": "--psm 8 -c classify_bln_numeric_mode=1 -c tessedit_char_blacklist=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
     },
 ]

@@ -1,4 +1,4 @@
-from typing import Optional, List
+from typing import List
 from pydantic import BaseModel
 
 class FieldValue(BaseModel):
@@ -13,8 +13,6 @@ class OrderPosition(BaseModel):
     quantity: FieldValue
     price: FieldValue
     total: FieldValue
-    page_number: Optional[int] = None
-    row_index: Optional[int] = None
 
 class ExtractionResult(BaseModel):
     positions: List[OrderPosition]

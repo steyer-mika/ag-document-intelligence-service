@@ -137,15 +137,6 @@ for page_idx, page in enumerate(pages):
                 "confidence": round(avg_confidence, 2)
             })
 
-            # Draw rectangle
-            cv2.rectangle(
-                debug,
-                (x, y),
-                (x + w, y + ROW_HEIGHT),
-                color,
-                2
-            )
-
             y += ROW_HEIGHT
 
         results.append(row_results)

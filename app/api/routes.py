@@ -1,12 +1,16 @@
 from fastapi import APIRouter, File, UploadFile, HTTPException
 from sqlalchemy.ext.asyncio import AsyncSession
 from fastapi import Depends
+from sqlalchemy import select
+from sqlalchemy.orm import selectinload
 
 from app.database.dependencies import get_db
-from app.database.models.job import Job
+from app.services.export.export_factory import ExportFactory
+from app.database.models.job import Job, JobStatus
 from app.config.settings import settings
 from app.api.dto import HealthResponse, InfoResponse
 from app.worker import process_document
+from app.database.models.extraction_result import ExtractionResult
 
 router = APIRouter()
 
@@ -75,11 +79,35 @@ async def get_job(job_id: int, db: AsyncSession = Depends(get_db)):
     if not job:
         raise HTTPException(status_code=404, detail="Job not found")
     
-    return {
-        "job_id": job.id,
-        "status": job.status.value,
-        "result": job.result,
-        "created_at": job.created_at.isoformat() if job.created_at else None,
-        "started_at": job.started_at.isoformat() if job.started_at else None,
-        "completed_at": job.completed_at.isoformat() if job.completed_at else None,
-    }
+    return job
+
+@router.get("/jobs/{job_id}/{format}")
+async def get_job_result(
+    job_id: int,
+    format: str,
+    db: AsyncSession = Depends(get_db),
+):
+    job = await db.get(Job, job_id)
+
+    if not job:
+        raise HTTPException(status_code=404, detail="Job not found")
+
+    if job.status != JobStatus.completed:
+        raise HTTPException(status_code=400, detail="Job is not completed yet")
+
+    result = await db.execute(
+        select(ExtractionResult)
+        .where(ExtractionResult.job_id == job_id)
+        .options(selectinload(ExtractionResult.positions))
+    )
+    extraction_result = result.scalar_one_or_none()
+
+    if not extraction_result:
+        raise HTTPException(status_code=404, detail="Extraction result not found")
+
+    try:
+        exporter = ExportFactory.get_strategy(format)
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+
+    return exporter.export(job_id, extraction_result)

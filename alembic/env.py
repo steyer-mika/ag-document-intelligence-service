@@ -28,6 +28,8 @@ if config.config_file_name is not None:
 # from myapp import mymodel
 # target_metadata = mymodel.Base.metadata
 from app.database.models.job import Job
+from app.database.models.extraction_result import ExtractionResult
+from app.database.models.order_position import OrderPosition
 target_metadata = Base.metadata
 
 # other values from the config, defined by the needs of env.py,

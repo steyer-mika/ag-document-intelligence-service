@@ -96,5 +96,7 @@ Open in Browser for Swagger UI.
 
 ## Migrate for DEV
 
+(Note: Somehow it only works in Powershell and not in bash?)
+
 docker compose exec ag-document-intelligence-service-api alembic -c /app/alembic/alembic.ini revision --autogenerate -m "create jobs table"
 docker compose exec ag-document-intelligence-service-api alembic -c /app/alembic/alembic.ini upgrade head

@@ -1,695 +1,1157 @@
 {
   "job_id": null,
-  "total_pages": 2,
+  "total_pages": 6,
   "positions": [
     {
       "article_number": {
-        "value": "WN-2401",
-        "confidence": 99
+        "value": "01351062",
+        "confidence": 100
       },
       "description": {
-        "value": "Deep Learning Reserve Rotwein 2021",
-        "confidence": 99
+        "value": "CONDI.BALSAMI.BIANCO",
+        "confidence": 100
       },
       "kvk": {
-        "value": "001",
-        "confidence": 99
+        "value": "8,99",
+        "confidence": 100
       },
       "wgp": {
-        "value": "002",
-        "confidence": 99
-      },
-      "quantity": {
-        "value": 12,
-        "confidence": 99
-      },
-      "price": {
-        "value": 18.9,
-        "confidence": 99
-      },
-      "total": {
-        "value": 226.8,
-        "confidence": 99
+        "value": "5,805",
+        "confidence": 100
       }
     },
     {
       "article_number": {
-        "value": "WN-2402",
-        "confidence": 99
+        "value": "01595717",
+        "confidence": 100
       },
       "description": {
-        "value": "Neural Network Spätburgunder 2022",
-        "confidence": 99
+        "value": "ACETO BALSAMICO DI MOD",
+        "confidence": 100
       },
       "kvk": {
-        "value": "002",
-        "confidence": 99
+        "value": "2,39",
+        "confidence": 100
       },
       "wgp": {
-        "value": "005",
-        "confidence": 99
-      },
-      "quantity": {
-        "value": 6,
-        "confidence": 99
-      },
-      "price": {
-        "value": 24.5,
-        "confidence": 99
-      },
-      "total": {
-        "value": 147.0,
-        "confidence": 99
+        "value": "1,619",
+        "confidence": 100
       }
     },
     {
       "article_number": {
-        "value": "WN-2403",
-        "confidence": 99
+        "value": "01595748",
+        "confidence": 100
       },
       "description": {
-        "value": "Python Script Riesling trocken 2023",
-        "confidence": 99
+        "value": "CONDIM.BALSAM.BIANCO",
+        "confidence": 100
       },
       "kvk": {
-        "value": "001",
-        "confidence": 99
+        "value": "2,39",
+        "confidence": 100
       },
       "wgp": {
-        "value": "001",
-        "confidence": 99
-      },
-      "quantity": {
-        "value": 18,
-        "confidence": 99
-      },
-      "price": {
-        "value": 12.9,
-        "confidence": 99
-      },
-      "total": {
-        "value": 232.2,
-        "confidence": 99
+        "value": "1,619",
+        "confidence": 100
       }
     },
     {
       "article_number": {
-        "value": "WN-2404",
-        "confidence": 99
+        "value": "01669063",
+        "confidence": 100
       },
       "description": {
-        "value": "Algorithm Red halbtrocken 2022",
-        "confidence": 99
+        "value": "CREMOSO BIANCO",
+        "confidence": 100
       },
       "kvk": {
-        "value": "002",
-        "confidence": 99
+        "value": "6,49",
+        "confidence": 100
       },
       "wgp": {
-        "value": "006",
-        "confidence": 99
-      },
-      "quantity": {
-        "value": 12,
-        "confidence": 99
-      },
-      "price": {
-        "value": 9.9,
-        "confidence": 99
-      },
-      "total": {
-        "value": 118.8,
-        "confidence": 99
+        "value": "3,862",
+        "confidence": 100
       }
     },
     {
       "article_number": {
-        "value": "WN-2405",
-        "confidence": 99
+        "value": "02013963",
+        "confidence": 100
       },
       "description": {
-        "value": "Quantum Computing Silvaner 2023",
-        "confidence": 99
+        "value": "ACETO BALSAMICO",
+        "confidence": 100
       },
       "kvk": {
-        "value": "001",
-        "confidence": 99
+        "value": "2,79",
+        "confidence": 100
       },
       "wgp": {
-        "value": "002",
-        "confidence": 99
-      },
-      "quantity": {
-        "value": 6,
-        "confidence": 99
-      },
-      "price": {
-        "value": 14.5,
-        "confidence": 99
-      },
-      "total": {
-        "value": 87.0,
-        "confidence": 99
+        "value": "1,817",
+        "confidence": 100
       }
     },
     {
       "article_number": {
-        "value": "WN-2406",
-        "confidence": 99
+        "value": "03973871",
+        "confidence": 100
       },
       "description": {
-        "value": "Binary Code Chardonnay Barrique 2021",
-        "confidence": 99
+        "value": "ACETO BALSAMICO",
+        "confidence": 100
       },
       "kvk": {
-        "value": "001",
-        "confidence": 99
+        "value": "1,69",
+        "confidence": 100
       },
       "wgp": {
-        "value": "003",
-        "confidence": 99
-      },
-      "quantity": {
-        "value": 6,
-        "confidence": 99
-      },
-      "price": {
-        "value": 28.9,
-        "confidence": 99
-      },
-      "total": {
-        "value": 173.4,
-        "confidence": 99
+        "value": "1,176",
+        "confidence": 100
       }
     },
     {
       "article_number": {
-        "value": "WN-2407",
-        "confidence": 99
+        "value": "04259400",
+        "confidence": 100
       },
       "description": {
-        "value": "Machine Learning Merlot trocken 2020",
-        "confidence": 99
+        "value": "BIO-BALSAMICO",
+        "confidence": 100
       },
       "kvk": {
-        "value": "002",
-        "confidence": 99
+        "value": "5,99",
+        "confidence": 100
       },
       "wgp": {
-        "value": "007",
-        "confidence": 99
-      },
-      "quantity": {
-        "value": 12,
-        "confidence": 99
-      },
-      "price": {
-        "value": 16.9,
-        "confidence": 99
-      },
-      "total": {
-        "value": 202.8,
-        "confidence": 99
+        "value": "3,659",
+        "confidence": 100
       }
     },
     {
       "article_number": {
-        "value": "WN-2408",
-        "confidence": 99
+        "value": "05293745",
+        "confidence": 100
       },
       "description": {
-        "value": "HTML5 Weißwein Qualitätswein 2023",
-        "confidence": 99
+        "value": "APFEL BALSAMESSIG",
+        "confidence": 100
       },
       "kvk": {
-        "value": "001",
-        "confidence": 99
+        "value": "3,99",
+        "confidence": 100
       },
       "wgp": {
-        "value": "001",
-        "confidence": 99
-      },
-      "quantity": {
-        "value": 24,
-        "confidence": 99
-      },
-      "price": {
-        "value": 7.9,
-        "confidence": 99
-      },
-      "total": {
-        "value": 189.6,
-        "confidence": 99
+        "value": "2,435",
+        "confidence": 100
       }
     },
     {
       "article_number": {
-        "value": "WN-2409",
-        "confidence": 99
+        "value": "06084087",
+        "confidence": 100
       },
       "description": {
-        "value": "Raspberry Pi Rosé trocken 2023",
-        "confidence": 99
+        "value": "COND. BALSAMICO BIANCO",
+        "confidence": 100
       },
       "kvk": {
-        "value": "003",
-        "confidence": 99
+        "value": "3,99",
+        "confidence": 100
       },
       "wgp": {
-        "value": "008",
-        "confidence": 99
-      },
-      "quantity": {
-        "value": 12,
-        "confidence": 99
-      },
-      "price": {
-        "value": 13.5,
-        "confidence": 99
-      },
-      "total": {
-        "value": 162.0,
-        "confidence": 99
+        "value": "2,435",
+        "confidence": 100
       }
     },
     {
       "article_number": {
-        "value": "WN-2410",
-        "confidence": 99
+        "value": "07028597",
+        "confidence": 100
       },
       "description": {
-        "value": "Cloud Computing Sauvignon Blanc 2023",
-        "confidence": 99
+        "value": "ACETO BALSAMICO MODENA",
+        "confidence": 100
       },
       "kvk": {
-        "value": "001",
-        "confidence": 99
+        "value": "21,99",
+        "confidence": 100
       },
       "wgp": {
-        "value": "001",
-        "confidence": 99
-      },
-      "quantity": {
-        "value": 6,
-        "confidence": 99
-      },
-      "price": {
-        "value": 19.9,
-        "confidence": 99
-      },
-      "total": {
-        "value": 119.4,
-        "confidence": 99
+        "value": "14,310",
+        "confidence": 100
       }
     },
     {
       "article_number": {
-        "value": "WN-2411",
-        "confidence": 99
+        "value": "08883633",
+        "confidence": 100
       },
       "description": {
-        "value": "Blockchain Reserve Cabernet 2019",
-        "confidence": 99
+        "value": "BALSAMICO CREME",
+        "confidence": 100
       },
       "kvk": {
-        "value": "002",
-        "confidence": 99
+        "value": "2,79",
+        "confidence": 100
       },
       "wgp": {
-        "value": "009",
-        "confidence": 99
-      },
-      "quantity": {
-        "value": 6,
-        "confidence": 99
-      },
-      "price": {
-        "value": 34.9,
-        "confidence": 99
-      },
-      "total": {
-        "value": 209.4,
-        "confidence": 99
+        "value": "1,304",
+        "confidence": 100
       }
     },
     {
       "article_number": {
-        "value": "WN-2412",
-        "confidence": 99
+        "value": "08925215",
+        "confidence": 100
       },
       "description": {
-        "value": "API Gateway Gewürztraminer 2022",
-        "confidence": 99
+        "value": "BALSAMICO MODENA 35%",
+        "confidence": 100
       },
       "kvk": {
-        "value": "001",
-        "confidence": 99
+        "value": "5,69",
+        "confidence": 100
       },
       "wgp": {
-        "value": "004",
-        "confidence": 99
-      },
-      "quantity": {
-        "value": 6,
-        "confidence": 99
-      },
-      "price": {
-        "value": 21.9,
-        "confidence": 99
-      },
-      "total": {
-        "value": 131.4,
-        "confidence": 99
+        "value": "3,073",
+        "confidence": 100
       }
     },
     {
       "article_number": {
-        "value": "WN-2413",
-        "confidence": 99
+        "value": "09759914",
+        "confidence": 100
       },
       "description": {
-        "value": "Agentur Philipp Special Edition 2020",
-        "confidence": 99
+        "value": "BALSAMICO ROSATO",
+        "confidence": 100
       },
       "kvk": {
-        "value": "002",
-        "confidence": 99
+        "value": "4,49",
+        "confidence": 100
       },
       "wgp": {
-        "value": "010",
-        "confidence": 99
-      },
-      "quantity": {
-        "value": 3,
-        "confidence": 99
-      },
-      "price": {
-        "value": 89.0,
-        "confidence": 99
-      },
-      "total": {
-        "value": 267.0,
-        "confidence": 99
+        "value": "2,627",
+        "confidence": 100
       }
     },
     {
       "article_number": {
-        "value": "WN-2414",
-        "confidence": 99
+        "value": "09946643",
+        "confidence": 100
       },
       "description": {
-        "value": "Docker Container Pinot Noir 2021",
-        "confidence": 99
+        "value": "CREMACETO CLASSICO",
+        "confidence": 100
       },
       "kvk": {
-        "value": "002",
-        "confidence": 99
+        "value": "3,59",
+        "confidence": 100
       },
       "wgp": {
-        "value": "007",
-        "confidence": 99
-      },
-      "quantity": {
-        "value": 6,
-        "confidence": 99
-      },
-      "price": {
-        "value": 32.5,
-        "confidence": 99
-      },
-      "total": {
-        "value": 195.0,
-        "confidence": 99
+        "value": "2,237",
+        "confidence": 100
       }
     },
     {
       "article_number": {
-        "value": "WN-2415",
-        "confidence": 99
+        "value": "11054836",
+        "confidence": 100
       },
       "description": {
-        "value": "AI Intelligence Eiswein 2022 (0,375l)",
-        "confidence": 99
+        "value": "HELLES ITALIEN",
+        "confidence": 100
       },
       "kvk": {
-        "value": "001",
-        "confidence": 99
+        "value": "4,99",
+        "confidence": 100
       },
       "wgp": {
-        "value": "011",
-        "confidence": 99
-      },
-      "quantity": {
-        "value": 6,
-        "confidence": 99
-      },
-      "price": {
-        "value": 45.0,
-        "confidence": 99
-      },
-      "total": {
-        "value": 270.0,
-        "confidence": 99
+        "value": "3,001",
+        "confidence": 100
       }
     },
     {
       "article_number": {
-        "value": "WN-2416",
-        "confidence": 99
+        "value": "11054867",
+        "confidence": 100
       },
       "description": {
-        "value": "Git Commit Sekt Brut 2022",
-        "confidence": 99
+        "value": "ROSA ITALIEN",
+        "confidence": 100
       },
       "kvk": {
-        "value": "004",
-        "confidence": 99
+        "value": "4,49",
+        "confidence": 100
       },
       "wgp": {
-        "value": "012",
-        "confidence": 99
-      },
-      "quantity": {
-        "value": 12,
-        "confidence": 99
-      },
-      "price": {
-        "value": 16.5,
-        "confidence": 99
-      },
-      "total": {
-        "value": 198.0,
-        "confidence": 99
+        "value": "2,814",
+        "confidence": 100
       }
     },
     {
       "article_number": {
-        "value": "WN-2417",
-        "confidence": 99
+        "value": "13435022",
+        "confidence": 100
       },
       "description": {
-        "value": "Cybersecurity Zweigelt Rotwein 2022",
-        "confidence": 99
+        "value": "CREMA CONDIM.BIANCO",
+        "confidence": 100
       },
       "kvk": {
-        "value": "002",
-        "confidence": 99
+        "value": "4,49",
+        "confidence": 100
       },
       "wgp": {
-        "value": "005",
-        "confidence": 99
-      },
-      "quantity": {
-        "value": 12,
-        "confidence": 99
-      },
-      "price": {
-        "value": 11.9,
-        "confidence": 99
-      },
-      "total": {
-        "value": 142.8,
-        "confidence": 99
+        "value": "2,589",
+        "confidence": 100
       }
     },
     {
       "article_number": {
-        "value": "WN-2418",
-        "confidence": 99
+        "value": "13435040",
+        "confidence": 100
       },
       "description": {
-        "value": "JavaScript Framework Weißburgunder 2022",
-        "confidence": 99
+        "value": "CREMA ACETO BALSAMICO",
+        "confidence": 100
       },
       "kvk": {
-        "value": "001",
-        "confidence": 99
+        "value": "4,49",
+        "confidence": 100
       },
       "wgp": {
-        "value": "003",
-        "confidence": 99
-      },
-      "quantity": {
-        "value": 12,
-        "confidence": 99
-      },
-      "price": {
-        "value": 22.9,
-        "confidence": 99
-      },
-      "total": {
-        "value": 274.8,
-        "confidence": 99
+        "value": "2,799",
+        "confidence": 100
       }
     },
     {
       "article_number": {
-        "value": "WN-2419",
-        "confidence": 99
+        "value": "13862245",
+        "confidence": 100
       },
       "description": {
-        "value": "Linux Kernel Trollinger 2023",
-        "confidence": 99
+        "value": "CREMACETO HIMBEERE",
+        "confidence": 100
       },
       "kvk": {
-        "value": "002",
-        "confidence": 99
+        "value": "4,29",
+        "confidence": 100
       },
       "wgp": {
-        "value": "006",
-        "confidence": 99
-      },
-      "quantity": {
-        "value": 18,
-        "confidence": 99
-      },
-      "price": {
-        "value": 8.9,
-        "confidence": 99
-      },
-      "total": {
-        "value": 160.2,
-        "confidence": 99
+        "value": "2,704",
+        "confidence": 100
       }
     },
     {
       "article_number": {
-        "value": "WN-2420",
-        "confidence": 99
+        "value": "14942354",
+        "confidence": 100
       },
       "description": {
-        "value": "Robotic Wine Series No. 404 Edition 2021",
-        "confidence": 99
+        "value": "COND.BAL. BIANCO WALN.",
+        "confidence": 100
       },
       "kvk": {
-        "value": "002",
-        "confidence": 99
+        "value": "2,59",
+        "confidence": 100
       },
       "wgp": {
-        "value": "013",
-        "confidence": 99
-      },
-      "quantity": {
-        "value": 6,
-        "confidence": 99
-      },
-      "price": {
-        "value": 42.0,
-        "confidence": 99
-      },
-      "total": {
-        "value": 252.0,
-        "confidence": 99
+        "value": "1,586",
+        "confidence": 100
       }
     },
     {
       "article_number": {
-        "value": "WN-2421",
-        "confidence": 99
+        "value": "14942466",
+        "confidence": 100
       },
       "description": {
-        "value": "Database Query Lemberger trocken 2022",
-        "confidence": 99
+        "value": "COND.BAL. BIANCO MED.",
+        "confidence": 100
       },
       "kvk": {
-        "value": "002",
-        "confidence": 99
+        "value": "2,59",
+        "confidence": 100
       },
       "wgp": {
-        "value": "006",
-        "confidence": 99
-      },
-      "quantity": {
-        "value": 12,
-        "confidence": 99
-      },
-      "price": {
-        "value": 13.9,
-        "confidence": 99
-      },
-      "total": {
-        "value": 166.8,
-        "confidence": 99
+        "value": "1,598",
+        "confidence": 100
       }
     },
     {
       "article_number": {
-        "value": "WN-2422",
-        "confidence": 99
+        "value": "19309394",
+        "confidence": 100
       },
       "description": {
-        "value": "Firmware Update Spätlese 2023",
-        "confidence": 99
+        "value": "BIO CREMACETO",
+        "confidence": 100
       },
       "kvk": {
-        "value": "001",
-        "confidence": 99
+        "value": "5,49",
+        "confidence": 100
       },
       "wgp": {
-        "value": "002",
-        "confidence": 99
-      },
-      "quantity": {
-        "value": 6,
-        "confidence": 99
-      },
-      "price": {
-        "value": 17.9,
-        "confidence": 99
-      },
-      "total": {
-        "value": 107.4,
-        "confidence": 99
+        "value": "3,471",
+        "confidence": 100
       }
     },
     {
       "article_number": {
-        "value": "WN-2423",
-        "confidence": 99
+        "value": "21245568",
+        "confidence": 100
       },
       "description": {
-        "value": "Internet of Things Weißherbst 2023",
-        "confidence": 99
+        "value": "ACETO BALSAM.DI MODENA",
+        "confidence": 100
       },
       "kvk": {
-        "value": "003",
-        "confidence": 99
+        "value": "10,99",
+        "confidence": 100
       },
       "wgp": {
-        "value": "008",
-        "confidence": 99
+        "value": "6,747",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "21813391",
+        "confidence": 100
       },
-      "quantity": {
-        "value": 12,
-        "confidence": 99
+      "description": {
+        "value": "BALSAMICO CREMOSO",
+        "confidence": 100
       },
-      "price": {
-        "value": 9.5,
-        "confidence": 99
+      "kvk": {
+        "value": "6,49",
+        "confidence": 100
       },
-      "total": {
-        "value": 114.0,
-        "confidence": 99
+      "wgp": {
+        "value": "3,268",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "24479168",
+        "confidence": 100
+      },
+      "description": {
+        "value": "ACETO BALSAMICO DI MOD",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "3.99",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "2.435",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "25021577",
+        "confidence": 100
+      },
+      "description": {
+        "value": "ACETO BALSAMICO TIPICO",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "2,49",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "1,382",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "25021613",
+        "confidence": 100
+      },
+      "description": {
+        "value": "CONDIMENTO BIANCO",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "2,49",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "1,382",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "27201316",
+        "confidence": 100
+      },
+      "description": {
+        "value": "CREMA BALSAMI",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "3,29",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "2,046",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "28574229",
+        "confidence": 100
+      },
+      "description": {
+        "value": "CONDIMENTO BIANCO",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "1,69",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "1,176",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "31147168",
+        "confidence": 100
+      },
+      "description": {
+        "value": "31147168",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "4,49",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "2,794",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "31152249",
+        "confidence": 100
+      },
+      "description": {
+        "value": "SPEZIALE BALSAMICO",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "15,99",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "9,534",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "36039549",
+        "confidence": 100
+      },
+      "description": {
+        "value": "CONDIMEN.BALSAM.BIANCO",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "3,89",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "2,357",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "36117922",
+        "confidence": 100
+      },
+      "description": {
+        "value": "BALSAM BIANCO",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "149,50",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "23,834",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "36117971",
+        "confidence": 100
+      },
+      "description": {
+        "value": "BALSAM BIANCO",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "3,29",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "1,413",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "36118527",
+        "confidence": 100
+      },
+      "description": {
+        "value": "BALSAMICO CREMA",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "164,50",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "33,459",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "36118558",
+        "confidence": 100
+      },
+      "description": {
+        "value": "BALSAMICO CREMA",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "3,29",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "1,621",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "36118575",
+        "confidence": 100
+      },
+      "description": {
+        "value": "FEIGE DATTEL CREMA",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "174,50",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "38,273",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "36118625",
+        "confidence": 100
+      },
+      "description": {
+        "value": "GRANATAPFEL CREMA",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "174,50",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "38,273",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "36118642",
+        "confidence": 100
+      },
+      "description": {
+        "value": "GRANATAPFEL CREMA",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "3,49",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "1,719",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "36118656",
+        "confidence": 100
+      },
+      "description": {
+        "value": "MANGO CREMA",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "189,50",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "39,718",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "36118660",
+        "confidence": 100
+      },
+      "description": {
+        "value": "MANGO CREMA",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "3,79",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "1,749",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "54956520",
+        "confidence": 100
+      },
+      "description": {
+        "value": "HIMBEERESSIG",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "3,99",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "2,435",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "68042253",
+        "confidence": 100
+      },
+      "description": {
+        "value": "ACETO BALSAMICO",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "1,39",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "0,900",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "68042415",
+        "confidence": 100
+      },
+      "description": {
+        "value": "CONDIM.BALSAM.BIANCO",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "1,39",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "0,900",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "71770521",
+        "confidence": 100
+      },
+      "description": {
+        "value": "ACETO BALSAMICO 65%",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "10,99",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "6,931",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "78181149",
+        "confidence": 100
+      },
+      "description": {
+        "value": "BALSAMICO MODENA 25%",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "4,49",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "2,757",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "79298602",
+        "confidence": 100
+      },
+      "description": {
+        "value": "ACETO BALSAMICO DI MOD",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "2,59",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "1,584",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "79531340",
+        "confidence": 100
+      },
+      "description": {
+        "value": "APFEL BALSAMESSIG",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "2,59",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "1,584",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "80848610",
+        "confidence": 100
+      },
+      "description": {
+        "value": "CONDIMENTO BIANCO",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "2,69",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "1,817",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "80965468",
+        "confidence": 100
+      },
+      "description": {
+        "value": "GIUSTI GRAN DEPOSITO",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "13,49",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "8,630",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "80988235",
+        "confidence": 100
+      },
+      "description": {
+        "value": "CREMA DI BALSAMICO",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "2,99",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "1,691",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "85449506",
+        "confidence": 100
+      },
+      "description": {
+        "value": "COND. BALSAMICO BIANCO",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "2,59",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "1,584",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "85680541",
+        "confidence": 100
+      },
+      "description": {
+        "value": "ACETO BALSAMICO INVECC",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "5,99",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "3,952",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "89778841",
+        "confidence": 100
+      },
+      "description": {
+        "value": "BIO ACETO DI BALSAMICO ",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "13,99",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "8,695",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "90546451",
+        "confidence": 100
+      },
+      "description": {
+        "value": "BALSAMISSIMO CREME",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "2,99",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "2,075",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "90923251",
+        "confidence": 100
+      },
+      "description": {
+        "value": "X MOEVENPICK CON BIANC",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "4,99",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "3,044",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "91016686",
+        "confidence": 100
+      },
+      "description": {
+        "value": "CREMA DI AC. DI PRIMI.",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "0,99",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "0,561",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "92038609",
+        "confidence": 100
+      },
+      "description": {
+        "value": "CREMA DI AC. DI PROS.",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "0,99",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "0,477",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "94441572",
+        "confidence": 100
+      },
+      "description": {
+        "value": "ACETO BALSAMICO",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "3,89",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "2,357",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "98670167",
+        "confidence": 100
+      },
+      "description": {
+        "value": "ACETO BALSAMICO SPRAY",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "3,99",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "2,505",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "99094286",
+        "confidence": 100
+      },
+      "description": {
+        "value": "ACETO BALSAMICO BIO",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "21,99",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "14,310",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "99101221",
+        "confidence": 100
+      },
+      "description": {
+        "value": "BALSAMICO MODENA IGP",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "10,99",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "7,155",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "99106258",
+        "confidence": 100
+      },
+      "description": {
+        "value": "ACETO BALSAMICO ORANGE",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "6,99",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "4,455",
+        "confidence": 100
+      }
+    },
+    {
+      "article_number": {
+        "value": "99581593",
+        "confidence": 100
+      },
+      "description": {
+        "value": "ACETO BALSAMICO MODENA",
+        "confidence": 100
+      },
+      "kvk": {
+        "value": "1,79",
+        "confidence": 100
+      },
+      "wgp": {
+        "value": "1,258",
+        "confidence": 100
       }
     }
   ]

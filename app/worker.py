@@ -10,6 +10,7 @@ from app.utils.post_processing.article_number_post_processing import post_proces
 from app.utils.post_processing.description_post_processing import post_process_description
 from app.utils.post_processing.kvk_post_processing import post_process_kvk
 from app.utils.post_processing.wgp_post_processing import post_process_wgp
+from app.config.field_config import CONFIDENCE_THRESHOLD
 
 @celery_app.task(bind=True)
 def process_document(self, job_id: int):
@@ -36,21 +37,40 @@ def process_document(self, job_id: int):
 
         for pos in result.positions:
             article_number_value = post_process_article_number(pos.article_number.value)
+            article_number_confidence = pos.article_number.confidence if article_number_value else 0.0
+            if article_number_confidence < CONFIDENCE_THRESHOLD:
+                article_number_value = None
+                article_number_confidence = 0.0
+
             description_value = post_process_description(pos.description.value)
+            description_confidence = pos.description.confidence if description_value else 0.0
+            if description_confidence < CONFIDENCE_THRESHOLD:
+                description_value = None
+                description_confidence = 0.0
+
             kvk_value = post_process_kvk(pos.kvk.value)
+            kvk_confidence = pos.kvk.confidence if kvk_value else 0.0
+            if kvk_confidence < CONFIDENCE_THRESHOLD:
+                kvk_value = None
+                kvk_confidence = 0.0
+
             wgp_value = post_process_wgp(pos.wgp.value)
+            wgp_confidence = pos.wgp.confidence if wgp_value else 0.0
+            if wgp_confidence < CONFIDENCE_THRESHOLD:
+                wgp_value = None
+                wgp_confidence = 0.0
 
             order_position = OrderPosition(
                 extraction_result_id=extraction_result.id,
                 position_number=pos.position_number,
                 article_number_value=article_number_value,
-                article_number_confidence=pos.article_number.confidence if article_number_value else 0.0,
+                article_number_confidence=article_number_confidence,
                 description_value=description_value,
-                description_confidence=pos.description.confidence if description_value else 0.0,
+                description_confidence=description_confidence,
                 kvk_value=kvk_value,
-                kvk_confidence=pos.kvk.confidence if kvk_value else 0.0,
+                kvk_confidence=kvk_confidence,
                 wgp_value=wgp_value,
-                wgp_confidence=pos.wgp.confidence if wgp_value else 0.0,
+                wgp_confidence=wgp_confidence,
             )
             db.add(order_position)
 

@@ -6,3 +6,6 @@ WGP_DIGESTS_AFTER_DECIMAL = 3
 
 # Article number is always 8 characters long
 ARTICLE_NUMBER_LENGTH = 8
+
+# Confidence threshold for accepting OCR results (0.0 to 1.0)
+CONFIDENCE_THRESHOLD = 0.6

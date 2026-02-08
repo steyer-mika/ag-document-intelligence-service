@@ -1,8 +1,3 @@
-"""
-Order Position Extraction Service
-
-This service extracts order positions from PDF documents using OCR.
-"""
 from pathlib import Path
 from typing import List, Dict, Any
 
@@ -12,21 +7,30 @@ import pytesseract
 from pytesseract import Output
 from pdf2image import convert_from_path
 
-from app.config.orc_config import DPI, GAUSSIAN_BLUR_KERNEL, LAYOUT, COLUMNS, OCR, ADAPTIVE_THRESHOLD
+from app.config.orc_config import (
+    DPI,
+    GAUSSIAN_BLUR_KERNEL,
+    LAYOUT,
+    FIELDS,
+    OCR,
+    ADAPTIVE_THRESHOLD,
+)
 from app.dto import ExtractionResult, OrderPosition, FieldValue
+from app.utils.orc_should_continue_processing import should_continue_processing
 
 class OrderPositionExtractionService:
+    def __init__(self):
+        self.row_count = 1
+
     def extract_from_pdf(self, pdf_path: str) -> ExtractionResult:
+        self.row_count = 1 # Reset row count for each new PDF
+
         pdf_path = Path(pdf_path)
 
         if not pdf_path.exists():
             raise FileNotFoundError(f"PDF file not found: {pdf_path}")
-        
-        pages = convert_from_path(
-            str(pdf_path),
-            dpi=DPI,
-            fmt="png"
-        )
+
+        pages = convert_from_path(str(pdf_path), dpi=DPI, fmt="png")
 
         all_positions = []
 
@@ -38,7 +42,7 @@ class OrderPositionExtractionService:
             positions=all_positions,
             total_pages=len(pages),
         )
-    
+
     def _process_page(self, page, page_index: int) -> List[OrderPosition]:
         img = np.array(page)
         img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
@@ -52,9 +56,9 @@ class OrderPositionExtractionService:
 
         page_h, page_w = binary.shape
 
-        column_data = self._extract_columns(binary, start_y, page_h)
+        rows = self._extract_rows(binary, start_y, page_h, page_index)
 
-        return column_data
+        return [self._map_to_order_position(row) for row in rows]
 
     def _preprocess_image(self, img: np.ndarray) -> np.ndarray:
         # Convert to grayscale
@@ -70,102 +74,120 @@ class OrderPositionExtractionService:
             cv2.ADAPTIVE_THRESH_GAUSSIAN_C,
             cv2.THRESH_BINARY,
             ADAPTIVE_THRESHOLD["block_size"],
-            ADAPTIVE_THRESHOLD["constant"]
+            ADAPTIVE_THRESHOLD["constant"],
         )
 
-    def _extract_columns(
-        self,
-        binary: np.ndarray,
-        start_y: int,
-        page_h: int
-    ) -> List[OrderPosition]:
+    def _extract_rows(
+        self, binary: np.ndarray, start_y: int, page_h: int, page_index: int
+    ) -> List[Dict[str, Any]]:
         rows = []
-
-        # loop through each row and extract column data
         y = start_y
-
-        row_counter = 1
-        stop_rows = False
 
         while y + LAYOUT["row_height"] < page_h:
             row_data = {
                 "y": y,
+                "page": page_index + 1,
                 "fields": {},
-                "row_number": row_counter
+                "row_number": self.row_count,
             }
-            
-            for column in COLUMNS:
-                roi = binary[y:y + LAYOUT["row_height"], column["x"]:column["x"] + column["width"]]
 
-                if roi.size == 0:
+            empty_field_count = 0
+
+            # Process each field in the row
+            for field in FIELDS:
+                # Calculate absolute coordinates
+                abs_x = LAYOUT["row_x_start"] + field["x_row_offset"]
+                abs_y = y + field["y_row_offset"]
+
+                # Extract field ROI from the binary image
+                field_roi = binary[
+                    abs_y : abs_y + field["height"],
+                    abs_x : abs_x + field["width"],
+                ]
+
+                if field_roi.size == 0:
                     continue
 
-                data = pytesseract.image_to_data(
-                    roi,
-                    lang=OCR["languages"],
-                    config=column["tesseract_config"],
-                    output_type=Output.DICT
-                )
+                # Check if field should be processed
+                if not should_continue_processing(field_roi):
+                    empty_field_count += 1
+                    row_data["fields"][field["name"]] = {
+                        "text": "",
+                        "confidence": 0.0,
+                    }
+                    continue
 
-                texts = []
-                confidences = []
+                # Run OCR on the field
+                try:
+                    data = pytesseract.image_to_data(
+                        field_roi,
+                        lang=OCR["languages"],
+                        config=field["tesseract_config"],
+                        output_type=Output.DICT,
+                    )
 
-                for i, conf in enumerate(data["conf"]):
-                    if conf != -1:
-                        txt = data["text"][i].strip()
-                        if txt:
-                            texts.append(txt)
-                            confidences.append(float(conf))
+                    # Extract text and calculate confidence
+                    texts = []
+                    confidences = []
 
-                text = " ".join(texts)
-                avg_confidence = (
-                    sum(confidences) / len(confidences)
-                    if confidences else 0.0
-                )
+                    for i, conf in enumerate(data["conf"]):
+                        if conf != -1:  # -1 means no detection
+                            txt = data["text"][i].strip()
+                            if txt:
+                                texts.append(txt)
+                                confidences.append(float(conf))
 
-                # Check if table has ended (e.g. empty article number column)
-                if column["name"] == "article_number" and not text:
-                    stop_rows = True
-                    break
+                    text = " ".join(texts)
+                    avg_confidence = (
+                        sum(confidences) / len(confidences) if confidences else 0.0
+                    )
 
-                row_data["fields"][column["name"]] = {
-                    "text": text,
-                    "confidence": round(avg_confidence, 2)
-                }
+                    row_data["fields"][field["name"]] = {
+                        "text": text,
+                        "confidence": round(avg_confidence, 2),
+                    }
 
-            # Flag to detect if we are at the end of the table and should stop processing further rows
-            if stop_rows:
+                except Exception as e:
+                    print(
+                        f"Error processing field '{field['name']}' on page {page_index + 1}, row {self.row_count}: {e}"
+                    )
+                    row_data["fields"][field["name"]] = {
+                        "text": "",
+                        "confidence": 0.0,
+                        "error": str(e),
+                    }
+
+            # If most of the fields are empty, we can assume the table has ended
+            # (why most and not all? Because it's a scan and someone could have written something by hand)
+            if empty_field_count >= len(FIELDS) - 1:
                 break
 
             rows.append(row_data)
 
             y += LAYOUT["row_height"]
-            row_counter += 1
+            self.row_count += 1
 
-        return [self._map_to_order_position(row) for row in rows]
-    
+        return rows
+
     def _map_to_order_position(self, row_data: Dict[str, Any]) -> OrderPosition:
         fields = row_data["fields"]
 
         return OrderPosition(
+            position_number=row_data["row_number"],
             article_number=FieldValue(
                 value=fields.get("article_number", {}).get("text", ""),
-                confidence=fields.get("article_number", {}).get("confidence", 0.0)
+                confidence=fields.get("article_number", {}).get("confidence", 0.0),
             ),
             description=FieldValue(
                 value=fields.get("description", {}).get("text", ""),
-                confidence=fields.get("description", {}).get("confidence", 0.0)
+                confidence=fields.get("description", {}).get("confidence", 0.0),
             ),
             kvk=FieldValue(
                 value=fields.get("kvk", {}).get("text", ""),
-                confidence=fields.get("kvk", {}).get("confidence", 0.0)
+                confidence=fields.get("kvk", {}).get("confidence", 0.0),
             ),
             wgp=FieldValue(
                 value=fields.get("wgp", {}).get("text", ""),
-                confidence=fields.get("wgp", {}).get("confidence", 0.0)
-            )
+                confidence=fields.get("wgp", {}).get("confidence", 0.0),
+            ),
         )
-    
-
-
-

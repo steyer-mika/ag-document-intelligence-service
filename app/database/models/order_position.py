@@ -13,6 +13,8 @@ class OrderPosition(Base):
         nullable=False,
     )
 
+    position_number = Column(Integer, nullable=False)
+
     # article_number
     article_number_value = Column(String, nullable=True)
     article_number_confidence = Column(Float, nullable=True)
@@ -22,11 +24,11 @@ class OrderPosition(Base):
     description_confidence = Column(Float, nullable=True)
 
     # kvk
-    kvk_value = Column(String, nullable=True)
+    kvk_value = Column(Float, nullable=True)
     kvk_confidence = Column(Float, nullable=True)
 
     # wgp
-    wgp_value = Column(String, nullable=True)
+    wgp_value = Column(Float, nullable=True)
     wgp_confidence = Column(Float, nullable=True)
 
     result = relationship("ExtractionResult", back_populates="positions")

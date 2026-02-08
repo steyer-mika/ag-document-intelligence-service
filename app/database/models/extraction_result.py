@@ -16,4 +16,6 @@ class ExtractionResult(Base):
         "OrderPosition",
         back_populates="result",
         cascade="all, delete-orphan",
+        order_by="OrderPosition.position_number",
+        lazy="selectin",
     )

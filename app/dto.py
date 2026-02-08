@@ -6,6 +6,7 @@ class FieldValue(BaseModel):
     confidence: float
 
 class OrderPosition(BaseModel):
+    position_number: int
     article_number: FieldValue
     description: FieldValue
     kvk: FieldValue

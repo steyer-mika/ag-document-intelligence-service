@@ -6,6 +6,7 @@ from app.database.models.job import Job, JobStatus
 from app.database.models.extraction_result import ExtractionResult
 from app.database.models.order_position import OrderPosition
 from app.services.orc_service import OrderPositionExtractionService
+from app.utils.try_parse_ocr_float import try_parse_ocr_float
 
 @celery_app.task(bind=True)
 def process_document(self, job_id: int):
@@ -33,13 +34,14 @@ def process_document(self, job_id: int):
         for pos in result.positions:
             order_position = OrderPosition(
                 extraction_result_id=extraction_result.id,
+                position_number=pos.position_number,
                 article_number_value=pos.article_number.value,
                 article_number_confidence=pos.article_number.confidence,
                 description_value=pos.description.value,
                 description_confidence=pos.description.confidence,
-                kvk_value=pos.kvk.value,
+                kvk_value=try_parse_ocr_float(pos.kvk.value),
                 kvk_confidence=pos.kvk.confidence,
-                wgp_value=pos.wgp.value,
+                wgp_value=try_parse_ocr_float(pos.wgp.value),
                 wgp_confidence=pos.wgp.confidence,
             )
             db.add(order_position)

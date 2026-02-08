@@ -49,7 +49,7 @@ FIELDS = [
         "width": 310,
         "y_row_offset": 15,
         "height": 50,
-        "tesseract_config": "--psm 8 -c classify_bln_numeric_mode=1",
+        "tesseract_config": "--psm 8 -c tessedit_char_whitelist=0123456789 -c classify_bln_numeric_mode=1",
     },
     {
         "name": "description",
@@ -57,7 +57,7 @@ FIELDS = [
         "width": 720,
         "y_row_offset": 10,
         "height": 50,
-        "tesseract_config": "--psm 6",
+        "tesseract_config": "--psm 7",
     },
     {
         "name": "kvk",
@@ -65,7 +65,7 @@ FIELDS = [
         "width": 115,
         "y_row_offset": 10,
         "height": 50,
-        "tesseract_config": "--psm 8 -c classify_bln_numeric_mode=1",
+        "tesseract_config": "--psm 8 -c tessedit_char_whitelist=0123456789.,",
     },
     {
         "name": "wgp",
@@ -73,7 +73,7 @@ FIELDS = [
         "width": 140,
         "y_row_offset": 10,
         "height": 50,
-        "tesseract_config": "--psm 8 -c classify_bln_numeric_mode=1",
+        "tesseract_config": "--psm 8 -c tessedit_char_whitelist=0123456789.,",
     },
 ]
 

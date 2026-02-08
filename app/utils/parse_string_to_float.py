@@ -1,12 +1,12 @@
 import re
-from typing import Optional
+from typing import Optional, Tuple
 
-def try_parse_ocr_float(text: str) -> Optional[float]:
-    if not text:
+def parse_string_to_float(value: Optional[str]) -> Optional[Tuple[float, int]]:
+    if not value:
         return None
 
     # 1. Keep only digits, space, comma, dot
-    s = re.sub(r"[^0-9., ]", "", text).strip()
+    s = re.sub(r"[^0-9., ]", "", value).strip()
     if not s:
         return None
 
@@ -19,12 +19,11 @@ def try_parse_ocr_float(text: str) -> Optional[float]:
     # 3. Normalize comma → dot
     s = s.replace(",", ".")
 
-    # 4. Reject multiple dots
-    if s.count(".") > 1:
-        return None
+    # 4. Remove leading and trailing dots
+    s = s.strip(".")
 
-    # 5. Reject leading or trailing dot
-    if s.startswith(".") or s.endswith("."):
+    # 5. Reject multiple dots
+    if s.count(".") > 1:
         return None
 
     # 6. Final validation
@@ -32,6 +31,12 @@ def try_parse_ocr_float(text: str) -> Optional[float]:
         return None
 
     try:
-        return float(s)
+        f = float(s)
+        # Count digits after decimal
+        if "." in s:
+            digits_after_dot = len(s.split(".")[1])
+        else:
+            digits_after_dot = 0
+        return f, digits_after_dot
     except ValueError:
         return None

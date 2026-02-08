@@ -163,18 +163,6 @@ class OrderPositionExtractionService:
             wgp=FieldValue(
                 value=fields.get("wgp", {}).get("text", ""),
                 confidence=fields.get("wgp", {}).get("confidence", 0.0)
-            ),
-            quantity=FieldValue(
-                value=fields.get("quantity", {}).get("text", ""),
-                confidence=fields.get("quantity", {}).get("confidence", 0.0)
-            ),
-            price=FieldValue(
-                value=fields.get("price", {}).get("text", ""),
-                confidence=fields.get("price", {}).get("confidence", 0.0)
-            ),
-            total=FieldValue(
-                value=fields.get("total", {}).get("text", ""),
-                confidence=fields.get("total", {}).get("confidence", 0.0)
             )
         )
     

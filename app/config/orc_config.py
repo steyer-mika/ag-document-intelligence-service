@@ -51,24 +51,6 @@ COLUMNS = [
         "width": 140,
         "tesseract_config": "--psm 8 -c classify_bln_numeric_mode=1",
     },
-    {
-        "name": "quantity",
-        "x": 1535,
-        "width": 180,
-        "tesseract_config": "--psm 8 -c classify_bln_numeric_mode=1 -c tessedit_char_blacklist=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
-    },
-    {
-        "name": "price",
-        "x": 1715,
-        "width": 235,
-        "tesseract_config": "--psm 8 -c classify_bln_numeric_mode=1 -c tessedit_char_blacklist=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
-    },
-    {
-        "name": "total",
-        "x": 1985,
-        "width": 260,
-        "tesseract_config": "--psm 8 -c classify_bln_numeric_mode=1 -c tessedit_char_blacklist=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
-    },
 ]
 
 

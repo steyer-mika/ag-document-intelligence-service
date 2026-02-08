@@ -29,9 +29,6 @@ COLUMNS = [
     ("description", 425, 830),
     ("kvk", 1255, 140),
     ("wgp", 1395, 140),
-    ("quantity", 1535, 180),
-    ("price", 1715, 235),
-    ("total", 1985, 260),
 ]
 
 COLORS = [

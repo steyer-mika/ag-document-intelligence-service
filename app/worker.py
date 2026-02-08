@@ -6,8 +6,6 @@ from app.database.models.job import Job, JobStatus
 from app.database.models.extraction_result import ExtractionResult
 from app.database.models.order_position import OrderPosition
 from app.services.orc_service import OrderPositionExtractionService
-from app.utils.amount_to_float import amount_to_float
-from app.utils.quantity_to_float import quantity_to_float
 
 @celery_app.task(bind=True)
 def process_document(self, job_id: int):
@@ -43,12 +41,6 @@ def process_document(self, job_id: int):
                 kvk_confidence=pos.kvk.confidence,
                 wgp_value=pos.wgp.value,
                 wgp_confidence=pos.wgp.confidence,
-                quantity_value=quantity_to_float(pos.quantity.value), # postprocess to handle OCR errors and convert to float
-                quantity_confidence=pos.quantity.confidence,
-                price_value=amount_to_float(pos.price.value), # postprocess to handle OCR errors and convert to float
-                price_confidence=pos.price.confidence,
-                total_value=amount_to_float(pos.total.value), # postprocess to handle OCR errors and convert to float
-                total_confidence=pos.total.confidence,
             )
             db.add(order_position)
 

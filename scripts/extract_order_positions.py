@@ -31,9 +31,6 @@ COLUMNS = [
     ("description", 425, 830),
     ("kvk", 1255, 140),
     ("wgp", 1395, 140),
-    ("quantity", 1535, 180),
-    ("price", 1715, 235),
-    ("total", 1985, 260),
 ]
 
 TESSERACT_CONFIGS = {
@@ -41,9 +38,6 @@ TESSERACT_CONFIGS = {
     "description": "--psm 6",
     "kvk": "--psm 7 -c tessedit_char_whitelist=0123456789",
     "wgp": "--psm 7 -c tessedit_char_whitelist=0123456789",
-    "quantity": "--psm 7 -c tessedit_char_whitelist=0123456789",
-    "price": "--psm 7 -c tessedit_char_whitelist=0123456789.,€",
-    "total": "--psm 7 -c tessedit_char_whitelist=0123456789.,€",
 }
 
 COLORS = [

@@ -29,16 +29,4 @@ class OrderPosition(Base):
     wgp_value = Column(String, nullable=True)
     wgp_confidence = Column(Float, nullable=True)
 
-    # quantity
-    quantity_value = Column(Float, nullable=True) # Do not use int, cause what if the unit is per karton/box instead of per piece? (:
-    quantity_confidence = Column(Float, nullable=True)
-
-    # price
-    price_value = Column(Float, nullable=True)
-    price_confidence = Column(Float, nullable=True)
-
-    # total
-    total_value = Column(Float, nullable=True)
-    total_confidence = Column(Float, nullable=True)
-
     result = relationship("ExtractionResult", back_populates="positions")

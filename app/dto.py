@@ -10,9 +10,6 @@ class OrderPosition(BaseModel):
     description: FieldValue
     kvk: FieldValue
     wgp: FieldValue
-    quantity: FieldValue
-    price: FieldValue
-    total: FieldValue
 
 class ExtractionResult(BaseModel):
     positions: List[OrderPosition]
